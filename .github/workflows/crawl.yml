@@ -1,0 +1,30 @@
+name: Crawl contests
+
+on:
+  schedule:
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: Crawl
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-3.5-flash-lite
+          GEMINI_MODEL_REVIEW: gemini-3.8-flash
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: python -m collector.cli
+      - name: Upload snapshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: contests-json
+          path: data/contests.json
+          if-no-files-found: ignore

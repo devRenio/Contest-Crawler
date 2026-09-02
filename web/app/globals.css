@@ -1,0 +1,81 @@
+:root {
+  --bg: #0f1419;
+  --panel: #182028;
+  --line: #2a3844;
+  --text: #e8eef3;
+  --muted: #9aacb8;
+  --accent: #3ee0b4;
+  --accent-2: #7ab8ff;
+  --warn: #ffb45a;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: "Pretendard", "Noto Sans KR", system-ui, sans-serif;
+  background: radial-gradient(1200px 600px at 10% -10%, #16313a 0%, var(--bg) 45%);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+a { color: inherit; }
+
+.wrap { max-width: 1100px; margin: 0 auto; padding: 40px 20px 80px; }
+.hero h1 { font-size: 32px; margin: 0 0 8px; letter-spacing: -0.03em; }
+.hero p { margin: 0 0 28px; color: var(--muted); }
+
+.toolbar { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 22px; }
+.tabs, .filters { display: flex; gap: 8px; flex-wrap: wrap; }
+.tab, .chip {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  padding: 8px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+.tab.on, .chip.on { background: var(--accent); color: #06241b; border-color: var(--accent); font-weight: 700; }
+.search {
+  flex: 1;
+  min-width: 200px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  color: var(--text);
+  border-radius: 12px;
+  padding: 10px 14px;
+}
+
+.meta { color: var(--muted); margin: 0 0 16px; font-size: 14px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+.card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card h2 { font-size: 17px; margin: 0; line-height: 1.4; }
+.row { display: flex; justify-content: space-between; gap: 8px; color: var(--muted); font-size: 13px; }
+.badges { display: flex; gap: 6px; flex-wrap: wrap; }
+.badge { font-size: 11px; padding: 3px 8px; border-radius: 999px; background: #22313c; color: var(--accent-2); }
+.badge.new { background: #1f3d32; color: var(--accent); }
+.badge.soon { background: #3d2d18; color: var(--warn); }
+.actions { display: flex; gap: 8px; }
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: var(--accent);
+  color: #06241b;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+}
+.btn.ghost { background: transparent; color: var(--text); border: 1px solid var(--line); }
+.empty, .error { padding: 40px 0; color: var(--muted); }
