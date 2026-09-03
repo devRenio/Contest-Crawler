@@ -20,7 +20,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.5-flash-lite
           GEMINI_MODEL_REVIEW: gemini-3.8-flash
-          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL || 'sqlite:///./data/contests.db' }}
         run: python -m collector.cli
       - name: Upload snapshot
         uses: actions/upload-artifact@v4

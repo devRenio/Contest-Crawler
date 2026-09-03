@@ -2,9 +2,11 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from pydantic import field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_DATABASE_URL = "sqlite:///./data/contests.db"
 
 
 class Settings(BaseSettings):
@@ -17,7 +19,7 @@ class Settings(BaseSettings):
     gemini_api_key: str = ""
     gemini_model: str = "gemini-3.5-flash-lite"
     gemini_model_review: str = "gemini-3.8-flash"
-    database_url: str = "sqlite:///./data/contests.db"
+    database_url: str = DEFAULT_DATABASE_URL
     cors_origins: str = "http://localhost:3000"
     user_agent: str = (
         "ContestCrawler/0.1 (club-internal; +https://github.com/devRenio/Contest-Crawler)"
@@ -28,6 +30,13 @@ class Settings(BaseSettings):
     new_days: int = 7
     closing_days: int = 14
     max_pages: int = 8
+
+    @field_validator("database_url", mode="before")
+    @classmethod
+    def nonempty_database_url(cls, value: object) -> object:
+        if value is None or (isinstance(value, str) and not value.strip()):
+            return DEFAULT_DATABASE_URL
+        return value
 
 
 settings = Settings()
