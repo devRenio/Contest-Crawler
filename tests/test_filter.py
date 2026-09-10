@@ -36,6 +36,14 @@ def test_canonical_key_stable():
     assert a == b
 
 
+def test_canonical_key_ignores_organizer():
+    from datetime import date
+
+    a = canonical_key("딥보이스 범죄 대응을 위한 AI 탐지 모델 경진대회", "한국데이터산업진흥원", date(2026, 10, 1))
+    b = canonical_key("딥보이스 범죄 대응을 위한 AI 탐지 모델 경진대회", "DACON", date(2026, 10, 1))
+    assert a == b
+
+
 def test_exclude_highschool_even_with_ai():
     raw = RawContest(
         source_name="wevity",

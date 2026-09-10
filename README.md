@@ -49,14 +49,17 @@ python -m collector.cli --snapshot C:\GitHub\goorm\lib\data\contests.json
 ```
 
 2. 동아리 사이트를 배포하면 `https://goorm.net/contests`에서 보입니다.
-3. 나중에 API를 따로 올리면 `NEXT_PUBLIC_API_URL`과 `CORS_ORIGINS=https://goorm.net`을 맞춥니다.
+3. 매일 크롤이 `lib/data/contests.json`을 자동 갱신합니다. 라이브 API는 쓰지 않습니다.
 
 ## GitHub Actions
 
-매일 06:00 KST(`cron: 0 21 * * *`)에 수집합니다. 저장소 Secrets:
+매일 06:00 KST(`cron: 0 21 * * *`)에 수집합니다. 스냅샷은 `data/contests.json`과 `data/first_seen.json`에 커밋되고, `GOORM_REPO_TOKEN`이 있으면 goorm 레포의 목록도 갱신합니다.
 
-- `GEMINI_API_KEY` (선택, 있으면 분류·요약)
+저장소 Secrets:
+
+- `GEMINI_API_KEY` (선택, 있으면 분류. 없으면 규칙 필터만)
 - `DATABASE_URL` (선택, Neon 등 Postgres. 없으면 워크플로 안의 SQLite는 휘발)
+- `GOORM_REPO_TOKEN` (goorm 레포 `contents: write`가 있는 PAT. 없으면 동아리 사이트 JSON은 수동 `--snapshot`)
 
 ## 수집 원칙
 

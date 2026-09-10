@@ -30,13 +30,15 @@ def main() -> None:
     if args.snapshot:
         from pathlib import Path
 
-        from collector.store import list_contests
+        from collector.snapshot import stamp_first_seen, write_snapshot
+        from collector.store import ContestRow, SessionLocal, row_to_canonical
+        from sqlalchemy import select
 
         init_db()
-        path = Path(args.snapshot)
-        path.parent.mkdir(parents=True, exist_ok=True)
-        items = [item.model_dump(mode="json") for item in list_contests()]
-        path.write_text(json.dumps(items, ensure_ascii=False, indent=2), encoding="utf-8")
+        with SessionLocal() as session:
+            rows = session.scalars(select(ContestRow).where(ContestRow.included.is_(True))).all()
+        items = stamp_first_seen([row_to_canonical(row) for row in rows])
+        path = write_snapshot(items, Path(args.snapshot))
         print(json.dumps({"path": str(path), "count": len(items)}, ensure_ascii=False))
         return
     result = crawl()

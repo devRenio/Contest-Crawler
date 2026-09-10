@@ -5,6 +5,9 @@ on:
     - cron: "0 21 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   crawl:
     runs-on: ubuntu-latest
@@ -18,10 +21,47 @@ jobs:
       - name: Crawl
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: gemini-3.5-flash-lite
-          GEMINI_MODEL_REVIEW: gemini-3.8-flash
+          GEMINI_MODEL: gemini-2.5-flash-lite
+          GEMINI_MODEL_REVIEW: gemini-2.5-flash
           DATABASE_URL: ${{ secrets.DATABASE_URL || 'sqlite:///./data/contests.db' }}
         run: python -m collector.cli
+      - name: Commit snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/first_seen.json data/contests.json
+          if git diff --cached --quiet; then
+            echo "No snapshot changes"
+          else
+            git commit -m "Update contest snapshot"
+            git push
+          fi
+      - name: Publish snapshot to goorm
+        env:
+          GOORM_REPO_TOKEN: ${{ secrets.GOORM_REPO_TOKEN }}
+        run: |
+          if [ -z "$GOORM_REPO_TOKEN" ]; then
+            echo "GOORM_REPO_TOKEN not set; skip goorm publish"
+            exit 0
+          fi
+          if [ ! -f data/contests.json ]; then
+            echo "data/contests.json missing"
+            exit 1
+          fi
+          tmp=$(mktemp -d)
+          git clone --depth 1 "https://x-access-token:${GOORM_REPO_TOKEN}@github.com/devRenio/goorm.git" "$tmp"
+          mkdir -p "$tmp/lib/data"
+          cp data/contests.json "$tmp/lib/data/contests.json"
+          cd "$tmp"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add lib/data/contests.json
+          if git diff --cached --quiet; then
+            echo "goorm snapshot unchanged"
+            exit 0
+          fi
+          git commit -m "Update contest snapshot"
+          git push
       - name: Upload snapshot
         uses: actions/upload-artifact@v4
         with:

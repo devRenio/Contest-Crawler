@@ -136,7 +136,7 @@ def upsert_contests(items: list[CanonicalContest]) -> int:
                         included=item.included,
                         confidence=item.confidence,
                         needs_review=item.needs_review,
-                        first_seen_at=now,
+                        first_seen_at=item.first_seen_at or now,
                         last_seen_at=now,
                     )
                 )
@@ -283,6 +283,7 @@ def to_out(row: ContestRow) -> ContestOut:
         status=row.status,  # type: ignore[arg-type]
         dday=dday,
         is_new=(now - row.first_seen_at).days <= settings.new_days,
+        first_seen_at=row.first_seen_at,
         needs_review=row.needs_review,
     )
 

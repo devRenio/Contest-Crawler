@@ -69,4 +69,5 @@ class ContestOut(BaseModel):
     status: ContestStatus
     dday: Optional[int] = None
     is_new: bool = False
+    first_seen_at: Optional[datetime] = None
     needs_review: bool = False

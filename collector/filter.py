@@ -89,9 +89,11 @@ def normalize_title(title: str) -> str:
     return WHITESPACE.sub(" ", text).strip()
 
 
-def canonical_key(title: str, organizer: str, apply_end: Optional[date]) -> str:
+def canonical_key(title: str, organizer: str = "", apply_end: Optional[date] = None) -> str:
+    """Identity is title + deadline. Organizer differs across sources (DACON vs host)."""
+    del organizer
     end = apply_end.isoformat() if apply_end else ""
-    blob = f"{normalize_title(title)}|{normalize_title(organizer)}|{end}"
+    blob = f"{normalize_title(title)}|{end}"
     return hashlib.sha1(blob.encode("utf-8")).hexdigest()
 
 

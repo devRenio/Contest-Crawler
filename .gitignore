@@ -5,7 +5,8 @@ venv/
 .env
 *.db
 *.sqlite3
-data/
+data/*.db
+data/*.sqlite3
 .pytest_cache/
 .mypy_cache/
 web/node_modules/

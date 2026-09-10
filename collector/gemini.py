@@ -9,7 +9,7 @@ from collector.schema import CanonicalContest
 
 log = logging.getLogger(__name__)
 
-REVIEW_FALLBACKS = ("gemini-3.8-flash", "gemini-3.7-flash")
+REVIEW_FALLBACKS = ("gemini-2.5-flash", "gemini-2.0-flash")
 
 
 def _client():
@@ -96,7 +96,7 @@ def enrich(items: list[CanonicalContest], review: bool = False) -> tuple[list[Ca
                     continue
             elif "404" in str(exc) or "not found" in str(exc).lower():
                 try:
-                    text = _generate(client, "gemini-2.5-flash-lite", prompt)
+                    text = _generate(client, "gemini-2.0-flash", prompt)
                     calls += 1
                 except Exception:
                     continue

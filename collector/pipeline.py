@@ -1,17 +1,16 @@
 from __future__ import annotations
 
-import json
 import logging
 from datetime import datetime
 
 from sqlalchemy import select
 
 from collector.adapters import ADAPTERS
-from collector.config import ROOT
 from collector.dedup import merge_duplicates
 from collector.filter import rule_include, to_canonical
 from collector.gemini import enrich
 from collector.schema import CanonicalContest
+from collector.snapshot import carry_forward, stamp_first_seen, write_snapshot
 from collector.store import (
     ContestRow,
     SessionLocal,
@@ -79,10 +78,14 @@ def crawl() -> dict:
     excluded = [item.canonical_key for item in by_key.values() if not item.included]
     dropped = exclude_contests(excluded)
 
+    failed_sources = {adapter.name for adapter in ADAPTERS} - successful_sources
+    final = carry_forward(final, failed_sources=failed_sources)
+    final = stamp_first_seen(final)
+
     stored = upsert_contests(final)
     synced = sync_included({item.canonical_key for item in final}, successful_sources)
     record_run(started, len(raw_items), stored, errors)
-    _export_json(final)
+    write_snapshot(final)
     return {
         "fetched": len(raw_items),
         "kept": len(final),
@@ -118,10 +121,3 @@ def enrich_existing() -> dict:
         "excluded": dropped,
         "llm_calls": hot_calls + review_calls,
     }
-
-
-def _export_json(items: list[CanonicalContest]) -> None:
-    out = ROOT / "data" / "contests.json"
-    out.parent.mkdir(exist_ok=True)
-    payload = [item.model_dump(mode="json") for item in items if item.included]
-    out.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
