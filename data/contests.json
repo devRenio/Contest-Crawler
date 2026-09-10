@@ -1,50 +1,5 @@
 [
   {
-    "id": "bb5585a805c9d5019137a312adbea6877752fee4",
-    "title": "2026 서울한옥 미래상 디자인 아이디어 공모",
-    "organizer": "서울특별시",
-    "contest_type": "idea",
-    "tags": [
-      "UX"
-    ],
-    "eligibility": "",
-    "apply_start": "2026-09-08",
-    "apply_end": "2026-09-10",
-    "apply_url": "https://thinkyou.co.kr/contest/65253/",
-    "source_url": "https://thinkyou.co.kr/contest/65253/",
-    "source_name": "thinkyou",
-    "sources": [
-      "thinkyou"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
-    "needs_review": false
-  },
-  {
-    "id": "06c872ed24badb57c1116686288c74cfca813087",
-    "title": "2026 서울한옥미래상 디자인 아이디어 공모",
-    "organizer": "서울특별시",
-    "contest_type": "idea",
-    "tags": [
-      "UX"
-    ],
-    "eligibility": "",
-    "apply_start": "2026-09-08",
-    "apply_end": "2026-09-10",
-    "apply_url": "https://thinkyou.co.kr/contest/65405/",
-    "source_url": "https://thinkyou.co.kr/contest/65405/",
-    "source_name": "thinkyou",
-    "sources": [
-      "thinkyou",
-      "campuspick"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
     "id": "ab3db1b5e6154e420834d2496836132a70a0f2e1",
     "title": "2026 ‘평생 살고싶은 성동’ 아이디어 공모전",
     "organizer": "성동구",
@@ -1203,14 +1158,14 @@
     "eligibility": "",
     "apply_start": "2026-09-07",
     "apply_end": "2026-10-02",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=2&ix=110855",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=2&ix=110855",
-    "source_name": "wevity",
+    "apply_url": "https://thinkyou.co.kr/contest/66577/",
+    "source_url": "https://thinkyou.co.kr/contest/66577/",
+    "source_name": "thinkyou",
     "sources": [
-      "wevity",
       "thinkyou",
       "campuspick",
-      "linkareer"
+      "linkareer",
+      "wevity"
     ],
     "summary": "",
     "status": "open",
@@ -1368,30 +1323,6 @@
     "needs_review": false
   },
   {
-    "id": "bec742ef5e1fdbc0a46a2f60e9c90cf04c4551ce",
-    "title": "[과학기술정보통신부] 제3회 미래융합인재 발굴 소프트웨어 챌린지",
-    "organizer": "과학기술정보통신부",
-    "contest_type": "idea",
-    "tags": [
-      "web",
-      "app"
-    ],
-    "eligibility": "",
-    "apply_start": "2026-08-15",
-    "apply_end": "2026-10-07",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=1&ix=110675",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=1&ix=110675",
-    "source_name": "wevity",
-    "sources": [
-      "wevity",
-      "thinkyou"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
     "id": "a5d5355389f369a5dd23b23ea19c0e08169d12a9",
     "title": "메이플스토리 글로벌 개발 콘테스트 (MapleStory Global Creator Challenge)",
     "organizer": "넥슨",
@@ -1412,6 +1343,30 @@
     "needs_review": false
   },
   {
+    "id": "bec742ef5e1fdbc0a46a2f60e9c90cf04c4551ce",
+    "title": "제3회 미래융합인재 발굴 소프트웨어 챌린지",
+    "organizer": "과학기술정보통신부, 경산시",
+    "contest_type": "contest",
+    "tags": [
+      "web",
+      "app"
+    ],
+    "eligibility": "",
+    "apply_start": "2026-08-15",
+    "apply_end": "2026-10-07",
+    "apply_url": "https://thinkyou.co.kr/contest/65905/",
+    "source_url": "https://thinkyou.co.kr/contest/65905/",
+    "source_name": "thinkyou",
+    "sources": [
+      "thinkyou",
+      "wevity"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-03T00:00:00",
+    "needs_review": false
+  },
+  {
     "id": "2e3b37d4b0ee18ae151980d6c334b1ccb6a1dcbe",
     "title": "2026년 전통시장 디지털 혁신 아이디어 공모전",
     "organizer": "서울지방중소벤처기업청·소상공인시장진흥공단·두나무",
@@ -1420,14 +1375,14 @@
     "eligibility": "",
     "apply_start": "2026-08-31",
     "apply_end": "2026-10-08",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=110696",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=110696",
-    "source_name": "wevity",
+    "apply_url": "https://thinkyou.co.kr/contest/66639/",
+    "source_url": "https://thinkyou.co.kr/contest/66639/",
+    "source_name": "thinkyou",
     "sources": [
-      "wevity",
       "thinkyou",
       "campuspick",
-      "linkareer"
+      "linkareer",
+      "wevity"
     ],
     "summary": "",
     "status": "open",
@@ -1519,6 +1474,33 @@
     "needs_review": false
   },
   {
+    "id": "e1b8c031600c2cb8c2968b177119fe552dc16dde",
+    "title": "2026 데이터+AI 혁신챌린지 - 데이터안심구역 경진대회",
+    "organizer": "과학기술정보통신부",
+    "contest_type": "datathon",
+    "tags": [
+      "AI",
+      "data",
+      "web",
+      "app"
+    ],
+    "eligibility": "",
+    "apply_start": "2026-09-01",
+    "apply_end": "2026-10-22",
+    "apply_url": "https://thinkyou.co.kr/contest/66637/",
+    "source_url": "https://thinkyou.co.kr/contest/66637/",
+    "source_name": "thinkyou",
+    "sources": [
+      "thinkyou",
+      "linkareer",
+      "wevity"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-03T00:00:00",
+    "needs_review": false
+  },
+  {
     "id": "355cd859a42eb30b3594c01b2a704ceb7fe1cc34",
     "title": "2026 데이터+AI 혁신챌린지 ‘데이터안심구역 경진대회’ 참가자 모집",
     "organizer": "과학기술정보통신부",
@@ -1542,33 +1524,6 @@
     "needs_review": false
   },
   {
-    "id": "e1b8c031600c2cb8c2968b177119fe552dc16dde",
-    "title": "2026 데이터+AI 혁신챌린지 데이터안심구역 경진대회",
-    "organizer": "과학기술정보통신부",
-    "contest_type": "datathon",
-    "tags": [
-      "AI",
-      "web",
-      "app",
-      "data"
-    ],
-    "eligibility": "",
-    "apply_start": "2026-09-01",
-    "apply_end": "2026-10-22",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110659",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110659",
-    "source_name": "wevity",
-    "sources": [
-      "wevity",
-      "thinkyou",
-      "linkareer"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
     "id": "22176bd161c412bf6ecbd1705a8b06df90b65fff",
     "title": "2026년 제7회 아동 안전사고예방 아이디어 공모전",
     "organizer": "한국아동단체협의회",
@@ -1582,8 +1537,8 @@
     "source_name": "thinkyou",
     "sources": [
       "thinkyou",
-      "wevity",
-      "linkareer"
+      "linkareer",
+      "wevity"
     ],
     "summary": "",
     "status": "upcoming",
