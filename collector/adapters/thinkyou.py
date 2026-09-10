@@ -7,7 +7,7 @@ from urllib.parse import urljoin
 
 from selectolax.parser import HTMLParser
 
-from collector.adapters.base import SourceAdapter
+from collector.adapters.base import SourceAdapter, status_from_dates
 from collector.config import settings
 from collector.http import fetch
 from collector.schema import RawContest
@@ -60,7 +60,7 @@ def parse_ajax(html: str, field_label: str) -> list[RawContest]:
         apply_start = _parse_yy_date(dates[0]) if dates else None
         apply_end = _parse_yy_date(dates[1]) if len(dates) > 1 else None
         stat = row.css_first("div.statNew")
-        status = _status(stat.text() if stat else "")
+        status = status_from_dates(apply_start, apply_end, _status(stat.text() if stat else ""))
         contest_id = ""
         id_match = re.search(r"/contest/(\d+)", href)
         if id_match:
@@ -90,40 +90,41 @@ class ThinkyouAdapter(SourceAdapter):
         collected: list[RawContest] = []
         seen: set[str] = set()
         # 5 = IT/SW, 0 = 아이디어/마케팅 (제목 규칙으로 마케팅·서포터즈는 걸러진다)
+        # 1 = 접수중, 3 = 접수예정
         for field, label in (("5", "IT/SW"), ("0", "기획/아이디어")):
-            for page in range(1, settings.max_pages + 1):
-                html = fetch(
-                    AJAX_URL,
-                    method="POST",
-                    data={
-                        "pageSize": "45",
-                        "page": str(page),
-                        "serstatus": "1",
-                        "serfield": field,
-                        "sertarget": "",
-                        "serprizeMoney": "",
-                        "serdivision": "",
-                        "seritem": "0",
-                        "searchstr": "",
-                    },
-                    headers={"Referer": "https://thinkyou.co.kr/contest/"},
-                ).text
-                if "Object moved" in html or "board_list" not in html:
-                    break
-                batch = parse_ajax(html, label)
-                if not batch:
-                    break
-                added = 0
-                for item in batch:
-                    if item.source_id in seen:
-                        continue
-                    seen.add(item.source_id)
-                    collected.append(item)
-                    added += 1
-                if added == 0:
-                    break
-                if 'class="btn next"' in html and "다음" in html and f">{page + 1}<" not in html:
-                    # single page of results
-                    if "<strong>1</strong>" in html and f">{page + 1}<" not in html:
+            for serstatus in ("1", "3"):
+                for page in range(1, settings.max_pages + 1):
+                    html = fetch(
+                        AJAX_URL,
+                        method="POST",
+                        data={
+                            "pageSize": "45",
+                            "page": str(page),
+                            "serstatus": serstatus,
+                            "serfield": field,
+                            "sertarget": "",
+                            "serprizeMoney": "",
+                            "serdivision": "",
+                            "seritem": "0",
+                            "searchstr": "",
+                        },
+                        headers={"Referer": "https://thinkyou.co.kr/contest/"},
+                    ).text
+                    if "Object moved" in html or "board_list" not in html:
                         break
+                    batch = parse_ajax(html, label)
+                    if not batch:
+                        break
+                    added = 0
+                    for item in batch:
+                        if item.source_id in seen:
+                            continue
+                        seen.add(item.source_id)
+                        collected.append(item)
+                        added += 1
+                    if added == 0:
+                        break
+                    if 'class="btn next"' in html and "다음" in html and f">{page + 1}<" not in html:
+                        if "<strong>1</strong>" in html and f">{page + 1}<" not in html:
+                            break
         return collected

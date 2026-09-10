@@ -8,7 +8,7 @@ from urllib.parse import urljoin
 
 from selectolax.parser import HTMLParser
 
-from collector.adapters.base import SourceAdapter
+from collector.adapters.base import SourceAdapter, status_from_dates
 from collector.config import settings
 from collector.http import fetch
 from collector.schema import RawContest
@@ -75,6 +75,8 @@ def parse_next_data(html: str) -> list[RawContest]:
                 or node.get("companyName")
                 or ""
             )
+            apply_start = _parse_date(node.get("recruitmentStartDate") or node.get("startDate"))
+            apply_end = _parse_date(node.get("recruitmentEndDate") or node.get("endDate"))
             items.append(
                 RawContest(
                     source_name="linkareer",
@@ -84,10 +86,10 @@ def parse_next_data(html: str) -> list[RawContest]:
                     organizer=str(organizer or ""),
                     categories=[str(c) for c in (node.get("categories") or node.get("jobTypes") or []) if c],
                     eligibility=str(node.get("target") or node.get("eligibility") or ""),
-                    apply_start=_parse_date(node.get("recruitmentStartDate") or node.get("startDate")),
-                    apply_end=_parse_date(node.get("recruitmentEndDate") or node.get("endDate")),
+                    apply_start=apply_start,
+                    apply_end=apply_end,
                     apply_url=urljoin(BASE, str(node.get("url") or href)),
-                    status_hint="open",
+                    status_hint=status_from_dates(apply_start, apply_end),
                 )
             )
     if items:

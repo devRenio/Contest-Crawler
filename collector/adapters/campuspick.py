@@ -3,7 +3,7 @@ from __future__ import annotations
 from datetime import date, datetime
 from typing import Any, Optional
 
-from collector.adapters.base import SourceAdapter
+from collector.adapters.base import SourceAdapter, status_from_dates
 from collector.config import settings
 from collector.http import fetch
 from collector.schema import RawContest
@@ -43,9 +43,7 @@ def parse_activities(payload: dict) -> list[RawContest]:
         apply_start = _parse_day(row.get("startDate") or row.get("start_date"))
         cats = row.get("categories") or []
         source_url = VIEW_URL.format(id=source_id)
-        status = "open"
-        if apply_end and apply_end < date.today():
-            status = "closed"
+        status = status_from_dates(apply_start, apply_end)
         items.append(
             RawContest(
                 source_name="campuspick",

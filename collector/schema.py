@@ -7,7 +7,7 @@ from pydantic import BaseModel, Field
 
 ContestType = Literal["hackathon", "contest", "datathon", "idea", "security", "etc"]
 ContestStatus = Literal["open", "upcoming", "closed"]
-Tab = Literal["all", "new", "closing"]
+Tab = Literal["all", "new", "closing", "upcoming"]
 
 
 class RawContest(BaseModel):

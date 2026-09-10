@@ -13,7 +13,7 @@ from collector.http import fetch
 from collector.schema import RawContest
 
 BASE = "https://www.wevity.com/"
-LIST_URL = "https://www.wevity.com/index.php?c=find&s=1&gbn=list&mode=ing&gp={page}"
+LIST_URL = "https://www.wevity.com/index.php?c=find&s=1&gbn=list&mode={mode}&gp={page}"
 
 
 def _parse_ix(href: str) -> str:
@@ -22,7 +22,7 @@ def _parse_ix(href: str) -> str:
     return values[0] if values else href
 
 
-def _dday_to_end(text: str) -> Optional[date]:
+def _dday_to_date(text: str) -> Optional[date]:
     match = re.search(r"D-(\d+)", text, re.I)
     if not match:
         if re.search(r"D-day|D-Day|오늘", text, re.I):
@@ -31,7 +31,7 @@ def _dday_to_end(text: str) -> Optional[date]:
     return date.today() + timedelta(days=int(match.group(1)))
 
 
-def parse_list(html: str) -> list[RawContest]:
+def parse_list(html: str, *, upcoming: bool = False) -> list[RawContest]:
     tree = HTMLParser(html)
     items: list[RawContest] = []
     for row in tree.css("div.ms-list ul.list > li"):
@@ -51,11 +51,18 @@ def parse_list(html: str) -> list[RawContest]:
             cats = sub.text(strip=True).replace("분야 :", "").replace("분야:", "")
             categories = [c.strip() for c in cats.split(",") if c.strip()]
         day_text = day.text(strip=True) if day else ""
+        is_upcoming = upcoming or "예정" in day_text
         status = "open"
-        if "예정" in day_text:
+        apply_start = None
+        apply_end = None
+        if is_upcoming:
             status = "upcoming"
+            apply_start = _dday_to_date(day_text)
         elif "마감" in day_text and "임박" not in day_text:
             status = "closed"
+            apply_end = _dday_to_date(day_text)
+        else:
+            apply_end = _dday_to_date(day_text)
         source_url = urljoin(BASE, href)
         items.append(
             RawContest(
@@ -65,7 +72,8 @@ def parse_list(html: str) -> list[RawContest]:
                 title=title,
                 organizer=organ.text(strip=True) if organ else "",
                 categories=categories,
-                apply_end=_dday_to_end(day_text),
+                apply_start=apply_start,
+                apply_end=apply_end,
                 apply_url=source_url,
                 status_hint=status,
             )
@@ -79,17 +87,18 @@ class WevityAdapter(SourceAdapter):
     def fetch_list(self) -> list[RawContest]:
         collected: list[RawContest] = []
         seen: set[str] = set()
-        for page in range(1, settings.max_pages + 1):
-            html = fetch(LIST_URL.format(page=page)).text
-            batch = parse_list(html)
-            if not batch:
-                break
-            new_items = [item for item in batch if item.source_id not in seen]
-            if not new_items:
-                break
-            for item in new_items:
-                seen.add(item.source_id)
-                collected.append(item)
-            if f"gp={page + 1}" not in html:
-                break
+        for mode, upcoming in (("ing", False), ("future", True)):
+            for page in range(1, settings.max_pages + 1):
+                html = fetch(LIST_URL.format(mode=mode, page=page)).text
+                batch = parse_list(html, upcoming=upcoming)
+                if not batch:
+                    break
+                new_items = [item for item in batch if item.source_id not in seen]
+                if not new_items:
+                    break
+                for item in new_items:
+                    seen.add(item.source_id)
+                    collected.append(item)
+                if f"gp={page + 1}" not in html:
+                    break
         return collected

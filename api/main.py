@@ -39,7 +39,7 @@ def health() -> dict:
 
 @app.get("/v1/contests")
 def contests(
-    tab: str = Query("all", pattern="^(all|new|closing)$"),
+    tab: str = Query("all", pattern="^(all|new|closing|upcoming)$"),
     tag: str = "",
     q: str = "",
 ):

@@ -293,13 +293,15 @@ def list_contests(tab: str = "all", tag: str = "", q: str = "") -> list[ContestO
         rows = session.scalars(select(ContestRow).where(ContestRow.included.is_(True))).all()
     items = [to_out(row) for row in rows]
     if tab == "new":
-        items = [i for i in items if i.is_new and i.status == "open"]
+        items = [i for i in items if i.is_new]
     elif tab == "closing":
         items = [
             i
             for i in items
             if i.status == "open" and i.dday is not None and 0 <= i.dday <= settings.closing_days
         ]
+    elif tab == "upcoming":
+        items = [i for i in items if i.status == "upcoming"]
     else:
         items = [i for i in items if i.status != "closed" or (i.dday is not None and i.dday >= 0)]
     if tag:
