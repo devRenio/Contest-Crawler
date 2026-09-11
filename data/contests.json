@@ -1,25 +1,5 @@
 [
   {
-    "id": "ab3db1b5e6154e420834d2496836132a70a0f2e1",
-    "title": "2026 ‘평생 살고싶은 성동’ 아이디어 공모전",
-    "organizer": "성동구",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": "2026-08-24",
-    "apply_end": "2026-09-11",
-    "apply_url": "https://thinkyou.co.kr/contest/66245/",
-    "source_url": "https://thinkyou.co.kr/contest/66245/",
-    "source_name": "thinkyou",
-    "sources": [
-      "thinkyou"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
     "id": "94bcd6d547d2f0806a1f66290222fe45022d8133",
     "title": "특허-산업 융합데이터 활용 아이디어 공모전",
     "organizer": "지식재산처",
@@ -575,8 +555,7 @@
     "source_url": "https://thinkyou.co.kr/contest/66563/",
     "source_name": "thinkyou",
     "sources": [
-      "thinkyou",
-      "linkareer"
+      "thinkyou"
     ],
     "summary": "",
     "status": "open",
@@ -872,6 +851,26 @@
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-03T00:00:00",
+    "needs_review": false
+  },
+  {
+    "id": "44fcedd37b8f8b7ab9f4af6338431b99f5d5a162",
+    "title": "2026년 국민참여형 예산사업 아이디어 공모전",
+    "organizer": "한국석유관리원",
+    "contest_type": "idea",
+    "tags": [],
+    "eligibility": "",
+    "apply_start": "2026-09-10",
+    "apply_end": "2026-09-30",
+    "apply_url": "https://thinkyou.co.kr/contest/66679/",
+    "source_url": "https://thinkyou.co.kr/contest/66679/",
+    "source_name": "thinkyou",
+    "sources": [
+      "thinkyou"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-11T23:10:00.907919",
     "needs_review": false
   },
   {
@@ -1541,7 +1540,7 @@
       "wevity"
     ],
     "summary": "",
-    "status": "upcoming",
+    "status": "open",
     "first_seen_at": "2026-09-10T12:10:14.564977",
     "needs_review": false
   },
