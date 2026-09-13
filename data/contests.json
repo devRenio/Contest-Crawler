@@ -1842,29 +1842,6 @@
     "needs_review": false
   },
   {
-    "id": "972bbb2e8227fe6e014635b95848e0894fe98a6d",
-    "title": "AI와 함께하는 교통문제 해결을 위한 데이터 분석 공모전",
-    "organizer": "",
-    "contest_type": "datathon",
-    "tags": [
-      "AI",
-      "data"
-    ],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/347433",
-    "source_url": "https://linkareer.com/activity/347433",
-    "source_name": "linkareer",
-    "sources": [
-      "linkareer"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
     "id": "1cc5fa1ce1ebd20b109c7ea23d75971982519129",
     "title": "[SDU COSS] 미래 개발자를 위한 안전한 소프트웨어 개발 대회!",
     "organizer": "",
