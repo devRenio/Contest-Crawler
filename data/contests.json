@@ -1,27 +1,5 @@
 [
   {
-    "id": "33a013c1f0adf81c1fdeba2d972356c58fd43076",
-    "title": "2026 OYE AI  숏드라마 챌린지 : EP.01",
-    "organizer": "미디어그룹테이크투",
-    "contest_type": "contest",
-    "tags": [
-      "AI"
-    ],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-09-13",
-    "apply_url": "https://www.campuspick.com/contest/view?id=35577",
-    "source_url": "https://www.campuspick.com/contest/view?id=35577",
-    "source_name": "campuspick",
-    "sources": [
-      "campuspick"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
     "id": "b4b589b842693a592dece5ed5fe774533b91aa77",
     "title": "Web3 시대의 블록체인 AI융합 해커톤",
     "organizer": "충남대학교 데이터보안활용혁신융합대학사업단",
@@ -451,7 +429,8 @@
     "source_name": "thinkyou",
     "sources": [
       "thinkyou",
-      "campuspick"
+      "campuspick",
+      "linkareer"
     ],
     "summary": "",
     "status": "open",
@@ -733,8 +712,7 @@
     "source_url": "https://www.campuspick.com/contest/view?id=36033",
     "source_name": "campuspick",
     "sources": [
-      "campuspick",
-      "linkareer"
+      "campuspick"
     ],
     "summary": "",
     "status": "open",
@@ -844,7 +822,8 @@
     "source_url": "https://thinkyou.co.kr/contest/66679/",
     "source_name": "thinkyou",
     "sources": [
-      "thinkyou"
+      "thinkyou",
+      "linkareer"
     ],
     "summary": "",
     "status": "open",
@@ -1389,6 +1368,27 @@
     "needs_review": false
   },
   {
+    "id": "1e21083ba220af4ea97a277c6609c976c279a686",
+    "title": "2026 인도적 지원 청년·대학생 아이디어 경진대회",
+    "organizer": "KOICA",
+    "contest_type": "idea",
+    "tags": [],
+    "eligibility": "",
+    "apply_start": "2026-09-11",
+    "apply_end": "2026-10-11",
+    "apply_url": "https://thinkyou.co.kr/contest/66689/",
+    "source_url": "https://thinkyou.co.kr/contest/66689/",
+    "source_name": "thinkyou",
+    "sources": [
+      "thinkyou",
+      "linkareer"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-14T23:49:31.582911",
+    "needs_review": false
+  },
+  {
     "id": "c6c5668bc3afbeb5c08a3748a185e6a37c821b5b",
     "title": "보험산업 발전을 위한 제10회 대학생 아이디어 공모전",
     "organizer": "한국보험신문, 중국은행보험보, 일본보험매일신문",
@@ -1408,6 +1408,29 @@
     "summary": "",
     "status": "upcoming",
     "first_seen_at": "2026-09-03T00:00:00",
+    "needs_review": false
+  },
+  {
+    "id": "e3771c3447b1b546acbd3864e43d68bbc754203a",
+    "title": "KoMaP AI 경진대회",
+    "organizer": "산업통상부,한국산업기술진흥원",
+    "contest_type": "contest",
+    "tags": [
+      "AI"
+    ],
+    "eligibility": "",
+    "apply_start": "2026-09-03",
+    "apply_end": "2026-10-15",
+    "apply_url": "https://thinkyou.co.kr/contest/66691/",
+    "source_url": "https://thinkyou.co.kr/contest/66691/",
+    "source_name": "thinkyou",
+    "sources": [
+      "thinkyou",
+      "linkareer"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-14T23:49:31.582911",
     "needs_review": false
   },
   {
@@ -1536,8 +1559,7 @@
     "source_name": "thinkyou",
     "sources": [
       "thinkyou",
-      "campuspick",
-      "linkareer"
+      "campuspick"
     ],
     "summary": "",
     "status": "open",
@@ -1714,6 +1736,26 @@
     "needs_review": false
   },
   {
+    "id": "b3ece217b035b855fdda1d43b6bed5ffa6ea02c4",
+    "title": "2026 대구 관광 혁신 아이디어 공모전",
+    "organizer": "",
+    "contest_type": "idea",
+    "tags": [],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": null,
+    "apply_url": "https://linkareer.com/activity/350401",
+    "source_url": "https://linkareer.com/activity/350401",
+    "source_name": "linkareer",
+    "sources": [
+      "linkareer"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-14T23:49:31.582911",
+    "needs_review": false
+  },
+  {
     "id": "a70f09a38a224fbc2c4ff25e94139b7e9f6431b7",
     "title": "2026 데이터·AI 혁신 챌린지 통합경진대회 <데이터 문제해결 부문> 참가자 모집",
     "organizer": "",
@@ -1779,26 +1821,23 @@
     "needs_review": false
   },
   {
-    "id": "5f259e674c71c19761db578fd2eed19b56434d43",
-    "title": "2026년 제6회 K-인공지능 제조데이터 분석 경진대회",
+    "id": "95429dafe54a6d16a13ceeeae16f783f643cfdeb",
+    "title": "2026년 주민참여 혁신 아이디어 공모전",
     "organizer": "",
-    "contest_type": "datathon",
-    "tags": [
-      "AI",
-      "data"
-    ],
+    "contest_type": "idea",
+    "tags": [],
     "eligibility": "",
     "apply_start": null,
     "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/345299",
-    "source_url": "https://linkareer.com/activity/345299",
+    "apply_url": "https://linkareer.com/activity/350241",
+    "source_url": "https://linkareer.com/activity/350241",
     "source_name": "linkareer",
     "sources": [
       "linkareer"
     ],
     "summary": "",
     "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
+    "first_seen_at": "2026-09-14T23:49:31.582911",
     "needs_review": false
   },
   {
@@ -1842,23 +1881,26 @@
     "needs_review": false
   },
   {
-    "id": "1cc5fa1ce1ebd20b109c7ea23d75971982519129",
-    "title": "[SDU COSS] 미래 개발자를 위한 안전한 소프트웨어 개발 대회!",
+    "id": "972bbb2e8227fe6e014635b95848e0894fe98a6d",
+    "title": "AI와 함께하는 교통문제 해결을 위한 데이터 분석 공모전",
     "organizer": "",
-    "contest_type": "contest",
-    "tags": [],
+    "contest_type": "datathon",
+    "tags": [
+      "AI",
+      "data"
+    ],
     "eligibility": "",
     "apply_start": null,
     "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/349050",
-    "source_url": "https://linkareer.com/activity/349050",
+    "apply_url": "https://linkareer.com/activity/347433",
+    "source_url": "https://linkareer.com/activity/347433",
     "source_name": "linkareer",
     "sources": [
       "linkareer"
     ],
     "summary": "",
     "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
+    "first_seen_at": "2026-09-03T00:00:00",
     "needs_review": false
   },
   {
@@ -1878,48 +1920,6 @@
     ],
     "summary": "",
     "status": "upcoming",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
-    "needs_review": false
-  },
-  {
-    "id": "501b0414cbceeb6b84865288665f771c12754105",
-    "title": "[데이콘] 블랙박스 사고·딥보이스·법령 위반 탐지 AI 경진대회 (~9/30)",
-    "organizer": "",
-    "contest_type": "datathon",
-    "tags": [
-      "AI"
-    ],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/348982",
-    "source_url": "https://linkareer.com/activity/348982",
-    "source_name": "linkareer",
-    "sources": [
-      "linkareer"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
-    "needs_review": false
-  },
-  {
-    "id": "21c7632d71983531da12811cce58106676c62876",
-    "title": "[서울특별시 중구청] 2026 일상 속 '익숙한 불편' 개선 정책 아이디어 공모전",
-    "organizer": "",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/349381",
-    "source_url": "https://linkareer.com/activity/349381",
-    "source_name": "linkareer",
-    "sources": [
-      "linkareer"
-    ],
-    "summary": "",
-    "status": "open",
     "first_seen_at": "2026-09-10T12:10:14.564977",
     "needs_review": false
   },
