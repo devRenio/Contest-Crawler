@@ -1,31 +1,5 @@
 [
   {
-    "id": "b4b589b842693a592dece5ed5fe774533b91aa77",
-    "title": "Web3 시대의 블록체인 AI융합 해커톤",
-    "organizer": "충남대학교 데이터보안활용혁신융합대학사업단",
-    "contest_type": "hackathon",
-    "tags": [
-      "AI",
-      "web",
-      "data",
-      "security",
-      "hackathon"
-    ],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-09-14",
-    "apply_url": "https://www.campuspick.com/contest/view?id=35868",
-    "source_url": "https://www.campuspick.com/contest/view?id=35868",
-    "source_name": "campuspick",
-    "sources": [
-      "campuspick"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
     "id": "bb2111668408242c49d55fe3da12f26637a9ae0d",
     "title": "2026년 AI기반 국민체감 혁신 아이디어 공모전",
     "organizer": "한국사회보장정보원",
@@ -694,6 +668,28 @@
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-03T00:00:00",
+    "needs_review": false
+  },
+  {
+    "id": "80efe7579a05762d1891cb798d71e19858f6dd72",
+    "title": "제4회 경남AI·SW경진대회-제조 피지컬 AI Agent 일부 부문 안내",
+    "organizer": "경상남도, 창원특례시, 진주시",
+    "contest_type": "contest",
+    "tags": [
+      "AI"
+    ],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": "2026-09-29",
+    "apply_url": "https://www.campuspick.com/contest/view?id=36128",
+    "source_url": "https://www.campuspick.com/contest/view?id=36128",
+    "source_name": "campuspick",
+    "sources": [
+      "campuspick"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-15T23:29:44.934303",
     "needs_review": false
   },
   {
@@ -1411,6 +1407,28 @@
     "needs_review": false
   },
   {
+    "id": "da88cc49f6aab0ed2108d3ad62e4db4888e803c1",
+    "title": "2026 KoMaP AI 경진대회",
+    "organizer": "산업통상자원부, 한국산업기술진흥원",
+    "contest_type": "contest",
+    "tags": [
+      "AI"
+    ],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": "2026-10-15",
+    "apply_url": "https://www.campuspick.com/contest/view?id=36134",
+    "source_url": "https://www.campuspick.com/contest/view?id=36134",
+    "source_name": "campuspick",
+    "sources": [
+      "campuspick"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-15T23:29:44.934303",
+    "needs_review": false
+  },
+  {
     "id": "e3771c3447b1b546acbd3864e43d68bbc754203a",
     "title": "KoMaP AI 경진대회",
     "organizer": "산업통상부,한국산업기술진흥원",
@@ -1471,6 +1489,27 @@
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-03T00:00:00",
+    "needs_review": false
+  },
+  {
+    "id": "404b7d9861b0549b1bf4f23ad83eb45c2bbcc94d",
+    "title": "제7회 KRISO 미래바다 아이디어 공모전",
+    "organizer": "선박해양플랜트연구소",
+    "contest_type": "idea",
+    "tags": [],
+    "eligibility": "",
+    "apply_start": "2026-09-14",
+    "apply_end": "2026-10-18",
+    "apply_url": "https://thinkyou.co.kr/contest/66737/",
+    "source_url": "https://thinkyou.co.kr/contest/66737/",
+    "source_name": "thinkyou",
+    "sources": [
+      "thinkyou",
+      "linkareer"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-15T23:29:44.934303",
     "needs_review": false
   },
   {
@@ -1671,6 +1710,29 @@
     "needs_review": false
   },
   {
+    "id": "eea107ab27d6c8ee1c110138dfaed79b0004be76",
+    "title": "2026 스페이스 해커톤",
+    "organizer": "우주항공청",
+    "contest_type": "hackathon",
+    "tags": [
+      "hackathon"
+    ],
+    "eligibility": "",
+    "apply_start": "2026-09-14",
+    "apply_end": "2026-11-05",
+    "apply_url": "https://thinkyou.co.kr/contest/66741/",
+    "source_url": "https://thinkyou.co.kr/contest/66741/",
+    "source_name": "thinkyou",
+    "sources": [
+      "thinkyou",
+      "linkareer"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-15T23:29:44.934303",
+    "needs_review": false
+  },
+  {
     "id": "330d0337a37570dfc0e10e01c8b1484c21064844",
     "title": "[전국민AI경진대회] AI 달인 100 챌린지 이벤트 안내",
     "organizer": "과학기술정보통신부",
@@ -1756,29 +1818,6 @@
     "needs_review": false
   },
   {
-    "id": "a70f09a38a224fbc2c4ff25e94139b7e9f6431b7",
-    "title": "2026 데이터·AI 혁신 챌린지 통합경진대회 <데이터 문제해결 부문> 참가자 모집",
-    "organizer": "",
-    "contest_type": "datathon",
-    "tags": [
-      "AI",
-      "data"
-    ],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/349636",
-    "source_url": "https://linkareer.com/activity/349636",
-    "source_name": "linkareer",
-    "sources": [
-      "linkareer"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
-    "needs_review": false
-  },
-  {
     "id": "4edce814d8e437dd5b78d65c172ec61d9c2520c1",
     "title": "2026 성균관대학교 멀티모달 AI Bias 챌린지",
     "organizer": "DACON",
@@ -1801,26 +1840,6 @@
     "needs_review": false
   },
   {
-    "id": "250ceb3ce4fc7fdb1917a270b19f7f902655888f",
-    "title": "2026년 여수시 규제혁신 아이디어 공모전",
-    "organizer": "",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/349703",
-    "source_url": "https://linkareer.com/activity/349703",
-    "source_name": "linkareer",
-    "sources": [
-      "linkareer"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
-    "needs_review": false
-  },
-  {
     "id": "95429dafe54a6d16a13ceeeae16f783f643cfdeb",
     "title": "2026년 주민참여 혁신 아이디어 공모전",
     "organizer": "",
@@ -1838,46 +1857,6 @@
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-14T23:49:31.582911",
-    "needs_review": false
-  },
-  {
-    "id": "d96f4684fad780ae7333832303e6618ceaaf4bab",
-    "title": "2026년 중증장애인생산품 신규 품목 아이디어 공모전",
-    "organizer": "",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/349527",
-    "source_url": "https://linkareer.com/activity/349527",
-    "source_name": "linkareer",
-    "sources": [
-      "linkareer"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
-    "needs_review": false
-  },
-  {
-    "id": "40ce1de5bbf316f053decacfe55c610f90838c8f",
-    "title": "2026대학생 프로그래밍 경시대회",
-    "organizer": "",
-    "contest_type": "contest",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/349550",
-    "source_url": "https://linkareer.com/activity/349550",
-    "source_name": "linkareer",
-    "sources": [
-      "linkareer"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
     "needs_review": false
   },
   {
@@ -1924,25 +1903,23 @@
     "needs_review": false
   },
   {
-    "id": "d301dffcb7034cfce01a21afdcdd05fd3c3f869c",
-    "title": "[한국과학기술정보연구원] 2026 DATA·AI 분석 경진대회",
+    "id": "8cffe82fd962fed177222a7e5fa21ca677ecfa19",
+    "title": "[해양경찰청] 2026년 해양과학수사 사진/아이디어 공모전",
     "organizer": "",
-    "contest_type": "contest",
-    "tags": [
-      "AI"
-    ],
+    "contest_type": "idea",
+    "tags": [],
     "eligibility": "",
     "apply_start": null,
     "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/342034",
-    "source_url": "https://linkareer.com/activity/342034",
+    "apply_url": "https://linkareer.com/activity/350835",
+    "source_url": "https://linkareer.com/activity/350835",
     "source_name": "linkareer",
     "sources": [
       "linkareer"
     ],
     "summary": "",
     "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
+    "first_seen_at": "2026-09-15T23:29:44.934303",
     "needs_review": false
   },
   {
@@ -2015,23 +1992,23 @@
     "needs_review": false
   },
   {
-    "id": "7b5025e1aa5c1855bc3f287b6e046761593621d7",
-    "title": "제7회 아동 안전사고 예방 아이디어 공모전 \"안전레벨업\"",
+    "id": "a0dfa50ef5a7566a9d2c5781af60165c0f3cdeb1",
+    "title": "충청북도사회서비스원 기관 홍보 캐릭터 도민 아이디어 공모전",
     "organizer": "",
     "contest_type": "idea",
     "tags": [],
     "eligibility": "",
     "apply_start": null,
     "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/349547",
-    "source_url": "https://linkareer.com/activity/349547",
+    "apply_url": "https://linkareer.com/activity/350544",
+    "source_url": "https://linkareer.com/activity/350544",
     "source_name": "linkareer",
     "sources": [
       "linkareer"
     ],
     "summary": "",
     "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
+    "first_seen_at": "2026-09-15T23:29:44.934303",
     "needs_review": false
   }
 ]
