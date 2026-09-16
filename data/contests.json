@@ -1,27 +1,5 @@
 [
   {
-    "id": "bb2111668408242c49d55fe3da12f26637a9ae0d",
-    "title": "2026년 AI기반 국민체감 혁신 아이디어 공모전",
-    "organizer": "한국사회보장정보원",
-    "contest_type": "idea",
-    "tags": [
-      "AI"
-    ],
-    "eligibility": "",
-    "apply_start": "2026-08-20",
-    "apply_end": "2026-09-16",
-    "apply_url": "https://thinkyou.co.kr/contest/66007/",
-    "source_url": "https://thinkyou.co.kr/contest/66007/",
-    "source_name": "thinkyou",
-    "sources": [
-      "thinkyou"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
     "id": "c1c929970e2d46567c383460e43390888e012620",
     "title": "2026 뉴스빅데이터 해커톤",
     "organizer": "한국언론진흥재단",
@@ -403,8 +381,7 @@
     "source_name": "thinkyou",
     "sources": [
       "thinkyou",
-      "campuspick",
-      "linkareer"
+      "campuspick"
     ],
     "summary": "",
     "status": "open",
@@ -671,6 +648,28 @@
     "needs_review": false
   },
   {
+    "id": "c24a3437e941d5c9554de643f885f3d3d328e0c0",
+    "title": "제4회 경남AI·SW 경진대회",
+    "organizer": "경상남도, 창원특례시, 진주시",
+    "contest_type": "contest",
+    "tags": [
+      "AI"
+    ],
+    "eligibility": "",
+    "apply_start": "2026-09-07",
+    "apply_end": "2026-09-29",
+    "apply_url": "https://thinkyou.co.kr/contest/66803/",
+    "source_url": "https://thinkyou.co.kr/contest/66803/",
+    "source_name": "thinkyou",
+    "sources": [
+      "thinkyou"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-16T23:36:56.812416",
+    "needs_review": false
+  },
+  {
     "id": "80efe7579a05762d1891cb798d71e19858f6dd72",
     "title": "제4회 경남AI·SW경진대회-제조 피지컬 AI Agent 일부 부문 안내",
     "organizer": "경상남도, 창원특례시, 진주시",
@@ -818,8 +817,7 @@
     "source_url": "https://thinkyou.co.kr/contest/66679/",
     "source_name": "thinkyou",
     "sources": [
-      "thinkyou",
-      "linkareer"
+      "thinkyou"
     ],
     "summary": "",
     "status": "open",
@@ -1818,6 +1816,28 @@
     "needs_review": false
   },
   {
+    "id": "9ad85b2a8121ae565afce3e1e2d4347c56cb4c7d",
+    "title": "2026 마포 청년 창업 아이디어 경진대회 MAPO NEXT STAGE",
+    "organizer": "",
+    "contest_type": "idea",
+    "tags": [
+      "startup"
+    ],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": null,
+    "apply_url": "https://linkareer.com/activity/350985",
+    "source_url": "https://linkareer.com/activity/350985",
+    "source_name": "linkareer",
+    "sources": [
+      "linkareer"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-16T23:36:56.812416",
+    "needs_review": false
+  },
+  {
     "id": "4edce814d8e437dd5b78d65c172ec61d9c2520c1",
     "title": "2026 성균관대학교 멀티모달 AI Bias 챌린지",
     "organizer": "DACON",
@@ -1903,6 +1923,29 @@
     "needs_review": false
   },
   {
+    "id": "1cd55494c48cf53dcea79258bb0193f1c0d84899",
+    "title": "[한국농수산식품유통공사] 2026 AI 농산물 가격예측 온라인 해커톤",
+    "organizer": "",
+    "contest_type": "hackathon",
+    "tags": [
+      "AI",
+      "hackathon"
+    ],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": null,
+    "apply_url": "https://linkareer.com/activity/351263",
+    "source_url": "https://linkareer.com/activity/351263",
+    "source_name": "linkareer",
+    "sources": [
+      "linkareer"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-16T23:36:56.812416",
+    "needs_review": false
+  },
+  {
     "id": "8cffe82fd962fed177222a7e5fa21ca677ecfa19",
     "title": "[해양경찰청] 2026년 해양과학수사 사진/아이디어 공모전",
     "organizer": "",
@@ -1966,6 +2009,28 @@
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-03T00:00:00",
+    "needs_review": false
+  },
+  {
+    "id": "a4fd98b74b2146917f2001267532b2d90244747b",
+    "title": "제1회 전국 대학생 AI 재무설계 콘테스트 「AFPK 영 플래너 챌린지 2026」",
+    "organizer": "",
+    "contest_type": "contest",
+    "tags": [
+      "AI"
+    ],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": null,
+    "apply_url": "https://linkareer.com/activity/351221",
+    "source_url": "https://linkareer.com/activity/351221",
+    "source_name": "linkareer",
+    "sources": [
+      "linkareer"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-16T23:36:56.812416",
     "needs_review": false
   },
   {
