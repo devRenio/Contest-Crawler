@@ -1,69 +1,5 @@
 [
   {
-    "id": "c1c929970e2d46567c383460e43390888e012620",
-    "title": "2026 뉴스빅데이터 해커톤",
-    "organizer": "한국언론진흥재단",
-    "contest_type": "hackathon",
-    "tags": [
-      "data",
-      "hackathon"
-    ],
-    "eligibility": "",
-    "apply_start": "2026-08-24",
-    "apply_end": "2026-09-17",
-    "apply_url": "https://thinkyou.co.kr/contest/66352/",
-    "source_url": "https://thinkyou.co.kr/contest/66352/",
-    "source_name": "thinkyou",
-    "sources": [
-      "thinkyou",
-      "campuspick"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
-    "id": "99927346907449b38d80850df1155a4b4ff9d099",
-    "title": "결초보은 상권활성화 ESG 경영 아이디어 공모전",
-    "organizer": "결초보은 상권활성화 사업추진단",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": "2026-08-19",
-    "apply_end": "2026-09-17",
-    "apply_url": "https://thinkyou.co.kr/contest/65960/",
-    "source_url": "https://thinkyou.co.kr/contest/65960/",
-    "source_name": "thinkyou",
-    "sources": [
-      "thinkyou"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
-    "id": "cbcd80c110ec5d13342fb53b651fb127b6e41356",
-    "title": "제1회 생태관광 게임콘텐츠 아이디어 공모전",
-    "organizer": "주식회사 아신투어",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": "2026-08-10",
-    "apply_end": "2026-09-17",
-    "apply_url": "https://thinkyou.co.kr/contest/65705/",
-    "source_url": "https://thinkyou.co.kr/contest/65705/",
-    "source_name": "thinkyou",
-    "sources": [
-      "thinkyou"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
     "id": "a7e44fb66123ede5e201e664260450855f168440",
     "title": "제6회 K-인공지능 제조데이터 분석 경진대회",
     "organizer": "중소벤처기업부",
@@ -662,7 +598,8 @@
     "source_url": "https://thinkyou.co.kr/contest/66803/",
     "source_name": "thinkyou",
     "sources": [
-      "thinkyou"
+      "thinkyou",
+      "linkareer"
     ],
     "summary": "",
     "status": "open",
@@ -780,6 +717,31 @@
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-10T12:10:14.564977",
+    "needs_review": false
+  },
+  {
+    "id": "0d173b0aec4509d017c3a9855282fef9bc550834",
+    "title": "2026 제4회 SB 스타트업 네트워킹 페스티벌: AI 기반 지역문제 해결 해커톤 참가자 모집",
+    "organizer": "캠퍼스타운 성북클러스터",
+    "contest_type": "hackathon",
+    "tags": [
+      "AI",
+      "startup",
+      "hackathon"
+    ],
+    "eligibility": "",
+    "apply_start": "2026-09-16",
+    "apply_end": "2026-09-30",
+    "apply_url": "https://thinkyou.co.kr/contest/66823/",
+    "source_url": "https://thinkyou.co.kr/contest/66823/",
+    "source_name": "thinkyou",
+    "sources": [
+      "thinkyou",
+      "linkareer"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-17T23:30:25.881938",
     "needs_review": false
   },
   {
@@ -1374,8 +1336,7 @@
     "source_url": "https://thinkyou.co.kr/contest/66689/",
     "source_name": "thinkyou",
     "sources": [
-      "thinkyou",
-      "linkareer"
+      "thinkyou"
     ],
     "summary": "",
     "status": "open",
@@ -1753,6 +1714,28 @@
     "needs_review": false
   },
   {
+    "id": "0760cd9bdca0f69510b6d1061400c637e295cc7d",
+    "title": "의정부도시공사 AI 혁신 아이디어 공모전",
+    "organizer": "의정부도시공사",
+    "contest_type": "idea",
+    "tags": [
+      "AI"
+    ],
+    "eligibility": "",
+    "apply_start": "2026-09-15",
+    "apply_end": "2026-11-08",
+    "apply_url": "https://thinkyou.co.kr/contest/66834/",
+    "source_url": "https://thinkyou.co.kr/contest/66834/",
+    "source_name": "thinkyou",
+    "sources": [
+      "thinkyou"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-17T23:30:25.881938",
+    "needs_review": false
+  },
+  {
     "id": "ad8a7105f016ec766bd4cdd529f7d2b3457a5f9e",
     "title": "상주시 대표축제 대국민 아이디어 공모전",
     "organizer": "상주시",
@@ -1793,26 +1776,6 @@
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
-    "id": "b3ece217b035b855fdda1d43b6bed5ffa6ea02c4",
-    "title": "2026 대구 관광 혁신 아이디어 공모전",
-    "organizer": "",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/350401",
-    "source_url": "https://linkareer.com/activity/350401",
-    "source_name": "linkareer",
-    "sources": [
-      "linkareer"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-14T23:49:31.582911",
     "needs_review": false
   },
   {
@@ -1860,23 +1823,27 @@
     "needs_review": false
   },
   {
-    "id": "95429dafe54a6d16a13ceeeae16f783f643cfdeb",
-    "title": "2026년 주민참여 혁신 아이디어 공모전",
+    "id": "10a942510ba8475901fe029bfda51f26eba76863",
+    "title": "2026 제4회 SB 스타트업 네트워킹 페스티벌: AI 기반 지역문제 해결 해커톤 참가자 모집 (~9/30)",
     "organizer": "",
-    "contest_type": "idea",
-    "tags": [],
+    "contest_type": "hackathon",
+    "tags": [
+      "AI",
+      "startup",
+      "hackathon"
+    ],
     "eligibility": "",
     "apply_start": null,
     "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/350241",
-    "source_url": "https://linkareer.com/activity/350241",
+    "apply_url": "https://linkareer.com/activity/351461",
+    "source_url": "https://linkareer.com/activity/351461",
     "source_name": "linkareer",
     "sources": [
       "linkareer"
     ],
     "summary": "",
     "status": "open",
-    "first_seen_at": "2026-09-14T23:49:31.582911",
+    "first_seen_at": "2026-09-17T23:30:25.881938",
     "needs_review": false
   },
   {
@@ -1903,6 +1870,26 @@
     "needs_review": false
   },
   {
+    "id": "a4c931426cf44087154caae0857c342974b278ab",
+    "title": "SW중심대학사업단 2026년도 제3회 초중고 SW 경진대회",
+    "organizer": "",
+    "contest_type": "contest",
+    "tags": [],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": null,
+    "apply_url": "https://linkareer.com/activity/351358",
+    "source_url": "https://linkareer.com/activity/351358",
+    "source_name": "linkareer",
+    "sources": [
+      "linkareer"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-17T23:30:25.881938",
+    "needs_review": false
+  },
+  {
     "id": "f9d67b70f0b3568b8745178c6e8fbe85264be065",
     "title": "[국민권익위원회] 생활밀착형 특이민원 예방·해소 아이디어 공모전",
     "organizer": "국민권익위원회",
@@ -1920,6 +1907,28 @@
     "summary": "",
     "status": "upcoming",
     "first_seen_at": "2026-09-10T12:10:14.564977",
+    "needs_review": false
+  },
+  {
+    "id": "3898618a297af5ad68bcda6391c47677ff62ab21",
+    "title": "[의정부도시공사] AI 혁신 아이디어 공모전",
+    "organizer": "",
+    "contest_type": "idea",
+    "tags": [
+      "AI"
+    ],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": null,
+    "apply_url": "https://linkareer.com/activity/351589",
+    "source_url": "https://linkareer.com/activity/351589",
+    "source_name": "linkareer",
+    "sources": [
+      "linkareer"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-17T23:30:25.881938",
     "needs_review": false
   },
   {
@@ -2054,26 +2063,6 @@
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
-    "id": "a0dfa50ef5a7566a9d2c5781af60165c0f3cdeb1",
-    "title": "충청북도사회서비스원 기관 홍보 캐릭터 도민 아이디어 공모전",
-    "organizer": "",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/350544",
-    "source_url": "https://linkareer.com/activity/350544",
-    "source_name": "linkareer",
-    "sources": [
-      "linkareer"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-15T23:29:44.934303",
     "needs_review": false
   }
 ]
