@@ -1,48 +1,5 @@
 [
   {
-    "id": "a7e44fb66123ede5e201e664260450855f168440",
-    "title": "제6회 K-인공지능 제조데이터 분석 경진대회",
-    "organizer": "중소벤처기업부",
-    "contest_type": "datathon",
-    "tags": [
-      "AI",
-      "data"
-    ],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-09-17",
-    "apply_url": "https://www.campuspick.com/contest/view?id=35972",
-    "source_url": "https://www.campuspick.com/contest/view?id=35972",
-    "source_name": "campuspick",
-    "sources": [
-      "campuspick"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
-    "needs_review": false
-  },
-  {
-    "id": "d0f577f9b5b601f518b657a4fd18052e5fb4c774",
-    "title": "2026 시흥시 기본사회 정책 아이디어 공모전",
-    "organizer": "시흥시",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": "2026-08-24",
-    "apply_end": "2026-09-18",
-    "apply_url": "https://thinkyou.co.kr/contest/66311/",
-    "source_url": "https://thinkyou.co.kr/contest/66311/",
-    "source_name": "thinkyou",
-    "sources": [
-      "thinkyou"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
     "id": "f6508efd7bb9ab3d6d556bf69ac9bae9ce85184e",
     "title": "2026년 도민 참여형 통합돌봄 아이디어 공모전",
     "organizer": "전북특별자치도사회서비스원",
@@ -63,26 +20,6 @@
     "needs_review": false
   },
   {
-    "id": "797c33d8a9843774fa3de63b5267baff2391ef9f",
-    "title": "2026년 신용회복위원회(CCRS) 대학(원)생 아이디어 공모전",
-    "organizer": "신용회복위원회",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": "2026-08-10",
-    "apply_end": "2026-09-18",
-    "apply_url": "https://thinkyou.co.kr/contest/65725/",
-    "source_url": "https://thinkyou.co.kr/contest/65725/",
-    "source_name": "thinkyou",
-    "sources": [
-      "thinkyou"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
     "id": "c60a754126d8c3554d39f6335dc7be93a16e25f0",
     "title": "AI기반 지속 가능한 통일 아이디어 공모전",
     "organizer": "고려대학교 세종캠퍼스 통일교육선도대학 사업단",
@@ -91,13 +28,12 @@
       "AI"
     ],
     "eligibility": "",
-    "apply_start": "2026-08-01",
+    "apply_start": null,
     "apply_end": "2026-09-18",
-    "apply_url": "https://thinkyou.co.kr/contest/63035/",
-    "source_url": "https://thinkyou.co.kr/contest/63035/",
-    "source_name": "thinkyou",
+    "apply_url": "https://www.campuspick.com/contest/view?id=33887",
+    "source_url": "https://www.campuspick.com/contest/view?id=33887",
+    "source_name": "campuspick",
     "sources": [
-      "thinkyou",
       "campuspick"
     ],
     "summary": "",
@@ -122,26 +58,6 @@
     "source_name": "campuspick",
     "sources": [
       "campuspick"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
-    "id": "ff6066f802814fd6b56209aa49087592c8eced8d",
-    "title": "제8회 공간정보 활용·아이디어 경진대회",
-    "organizer": "국토교통부",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": "2026-08-18",
-    "apply_end": "2026-09-18",
-    "apply_url": "https://thinkyou.co.kr/contest/65855/",
-    "source_url": "https://thinkyou.co.kr/contest/65855/",
-    "source_name": "thinkyou",
-    "sources": [
-      "thinkyou"
     ],
     "summary": "",
     "status": "open",
@@ -512,6 +428,26 @@
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-10T12:10:14.564977",
+    "needs_review": false
+  },
+  {
+    "id": "4d9d888022ced4b3dff0f59df21debe24927a1e3",
+    "title": "제65회 탐라문화제 설문대할망 코스튬 아이디어 공모전",
+    "organizer": "제주도",
+    "contest_type": "idea",
+    "tags": [],
+    "eligibility": "",
+    "apply_start": "2026-09-09",
+    "apply_end": "2026-09-28",
+    "apply_url": "https://thinkyou.co.kr/contest/66869/",
+    "source_url": "https://thinkyou.co.kr/contest/66869/",
+    "source_name": "thinkyou",
+    "sources": [
+      "thinkyou"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-18T23:10:52.129180",
     "needs_review": false
   },
   {
@@ -1847,26 +1783,23 @@
     "needs_review": false
   },
   {
-    "id": "972bbb2e8227fe6e014635b95848e0894fe98a6d",
-    "title": "AI와 함께하는 교통문제 해결을 위한 데이터 분석 공모전",
+    "id": "75951fcdaf36fb89890fc76dfce846b370d8c7eb",
+    "title": "2026년 서민금융진흥원 대국민 혁신 아이디어 공모전",
     "organizer": "",
-    "contest_type": "datathon",
-    "tags": [
-      "AI",
-      "data"
-    ],
+    "contest_type": "idea",
+    "tags": [],
     "eligibility": "",
     "apply_start": null,
     "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/347433",
-    "source_url": "https://linkareer.com/activity/347433",
+    "apply_url": "https://linkareer.com/activity/351900",
+    "source_url": "https://linkareer.com/activity/351900",
     "source_name": "linkareer",
     "sources": [
       "linkareer"
     ],
     "summary": "",
     "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
+    "first_seen_at": "2026-09-18T23:10:52.129180",
     "needs_review": false
   },
   {
@@ -2063,6 +1996,26 @@
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-03T00:00:00",
+    "needs_review": false
+  },
+  {
+    "id": "0b7ba2015b69b904a85940464054e256617ef315",
+    "title": "제65회 탐라문화제 설문대할망 코스튬 아이디어 공모전 공고",
+    "organizer": "",
+    "contest_type": "idea",
+    "tags": [],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": null,
+    "apply_url": "https://linkareer.com/activity/351901",
+    "source_url": "https://linkareer.com/activity/351901",
+    "source_name": "linkareer",
+    "sources": [
+      "linkareer"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-18T23:10:52.129180",
     "needs_review": false
   }
 ]
