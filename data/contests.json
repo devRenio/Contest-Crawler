@@ -1,70 +1,5 @@
 [
   {
-    "id": "f6508efd7bb9ab3d6d556bf69ac9bae9ce85184e",
-    "title": "2026년 도민 참여형 통합돌봄 아이디어 공모전",
-    "organizer": "전북특별자치도사회서비스원",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-09-18",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110674",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110674",
-    "source_name": "wevity",
-    "sources": [
-      "wevity"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
-    "needs_review": false
-  },
-  {
-    "id": "c60a754126d8c3554d39f6335dc7be93a16e25f0",
-    "title": "AI기반 지속 가능한 통일 아이디어 공모전",
-    "organizer": "고려대학교 세종캠퍼스 통일교육선도대학 사업단",
-    "contest_type": "idea",
-    "tags": [
-      "AI"
-    ],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-09-18",
-    "apply_url": "https://www.campuspick.com/contest/view?id=33887",
-    "source_url": "https://www.campuspick.com/contest/view?id=33887",
-    "source_name": "campuspick",
-    "sources": [
-      "campuspick"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
-    "id": "f1b5c80209ad0de3acf20c33e0a58e3f69a5f29c",
-    "title": "[원티드 AI 해커톤] AI Championship 2026",
-    "organizer": "원티드랩",
-    "contest_type": "hackathon",
-    "tags": [
-      "AI",
-      "hackathon"
-    ],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-09-18",
-    "apply_url": "https://www.campuspick.com/contest/view?id=35851",
-    "source_url": "https://www.campuspick.com/contest/view?id=35851",
-    "source_name": "campuspick",
-    "sources": [
-      "campuspick"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
     "id": "b7cd0e11ea44baf9d112f4baafc08a474f002bd0",
     "title": "2026 AI Blockchain Challenge in Daegu 경진대회",
     "organizer": "iM뱅크",
@@ -1803,6 +1738,30 @@
     "needs_review": false
   },
   {
+    "id": "2aee18f8a6a4d46c34bb69d125401f23f39849a4",
+    "title": "Aimers 9기 : 투구 제구 성공 확률 예측 AI 오프라인 해커톤",
+    "organizer": "DAKER/DACON",
+    "contest_type": "hackathon",
+    "tags": [
+      "AI",
+      "data",
+      "hackathon"
+    ],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": null,
+    "apply_url": "https://dacon.io/competitions/official/236767/overview/",
+    "source_url": "https://dacon.io/competitions/official/236767/overview/",
+    "source_name": "dacon",
+    "sources": [
+      "dacon"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-19T22:51:33.568617",
+    "needs_review": false
+  },
+  {
     "id": "a4c931426cf44087154caae0857c342974b278ab",
     "title": "SW중심대학사업단 2026년도 제3회 초중고 SW 경진대회",
     "organizer": "",
@@ -1862,6 +1821,28 @@
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-17T23:30:25.881938",
+    "needs_review": false
+  },
+  {
+    "id": "d301dffcb7034cfce01a21afdcdd05fd3c3f869c",
+    "title": "[한국과학기술정보연구원] 2026 DATA·AI 분석 경진대회",
+    "organizer": "",
+    "contest_type": "contest",
+    "tags": [
+      "AI"
+    ],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": null,
+    "apply_url": "https://linkareer.com/activity/342034",
+    "source_url": "https://linkareer.com/activity/342034",
+    "source_name": "linkareer",
+    "sources": [
+      "linkareer"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-03T00:00:00",
     "needs_review": false
   },
   {
