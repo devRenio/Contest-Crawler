@@ -1,27 +1,5 @@
 [
   {
-    "id": "b7cd0e11ea44baf9d112f4baafc08a474f002bd0",
-    "title": "2026 AI Blockchain Challenge in Daegu 경진대회",
-    "organizer": "iM뱅크",
-    "contest_type": "idea",
-    "tags": [
-      "AI"
-    ],
-    "eligibility": "",
-    "apply_start": "2026-08-21",
-    "apply_end": "2026-09-20",
-    "apply_url": "https://thinkyou.co.kr/extAct/66066/",
-    "source_url": "https://thinkyou.co.kr/extAct/66066/",
-    "source_name": "thinkyou",
-    "sources": [
-      "thinkyou"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
     "id": "f97483c25de1dadd40256c730b93eb459a2365d7",
     "title": "2026 해양과학 AI × 빅데이터 경진대회",
     "organizer": "해양수산과학기술진흥원, (사)한국해양학회",
@@ -168,7 +146,8 @@
     "source_name": "thinkyou",
     "sources": [
       "thinkyou",
-      "campuspick"
+      "campuspick",
+      "linkareer"
     ],
     "summary": "",
     "status": "open",
@@ -1735,30 +1714,6 @@
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-18T23:10:52.129180",
-    "needs_review": false
-  },
-  {
-    "id": "2aee18f8a6a4d46c34bb69d125401f23f39849a4",
-    "title": "Aimers 9기 : 투구 제구 성공 확률 예측 AI 오프라인 해커톤",
-    "organizer": "DAKER/DACON",
-    "contest_type": "hackathon",
-    "tags": [
-      "AI",
-      "data",
-      "hackathon"
-    ],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": null,
-    "apply_url": "https://dacon.io/competitions/official/236767/overview/",
-    "source_url": "https://dacon.io/competitions/official/236767/overview/",
-    "source_name": "dacon",
-    "sources": [
-      "dacon"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-19T22:51:33.568617",
     "needs_review": false
   },
   {
