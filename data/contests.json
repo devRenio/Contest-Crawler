@@ -1,47 +1,5 @@
 [
   {
-    "id": "d7aedfcd68a40bee63f5ab932b722c8a0f6af203",
-    "title": "2026 대학생 프로그래밍 경시대회",
-    "organizer": "과학기술정보통신부",
-    "contest_type": "contest",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-09-22",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=5&ix=110767",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=5&ix=110767",
-    "source_name": "wevity",
-    "sources": [
-      "wevity"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
-    "needs_review": false
-  },
-  {
-    "id": "fb8fad1f33ab30e4c04f5fd81674567849af472d",
-    "title": "2026 주식회사 소프트뱅크(SoftBank) 채용 연계 해커톤 참가자 모집",
-    "organizer": "Progate, KOREC",
-    "contest_type": "hackathon",
-    "tags": [
-      "hackathon"
-    ],
-    "eligibility": "",
-    "apply_start": "2026-08-01",
-    "apply_end": "2026-09-22",
-    "apply_url": "https://thinkyou.co.kr/contest/65513/",
-    "source_url": "https://thinkyou.co.kr/contest/65513/",
-    "source_name": "thinkyou",
-    "sources": [
-      "thinkyou"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
     "id": "db34d9c7a09c2e4867167b231b78b3055a458c04",
     "title": "[채용/해커톤] 💻 2026 주식회사 소프트뱅크(SoftBank) 채용",
     "organizer": "KOREC, Progate",
@@ -57,31 +15,6 @@
     "source_name": "campuspick",
     "sources": [
       "campuspick"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
-    "id": "fedcb731eefda195bd109cc0b4d31e6c0bb36372",
-    "title": "제 1회 AI금융빅데이터플랫폼 소비데이터 활용 분석·아이디어 공모전",
-    "organizer": "비씨카드",
-    "contest_type": "datathon",
-    "tags": [
-      "AI",
-      "data"
-    ],
-    "eligibility": "",
-    "apply_start": "2026-08-21",
-    "apply_end": "2026-09-22",
-    "apply_url": "https://thinkyou.co.kr/contest/66062/",
-    "source_url": "https://thinkyou.co.kr/contest/66062/",
-    "source_name": "thinkyou",
-    "sources": [
-      "thinkyou",
-      "campuspick",
-      "linkareer"
     ],
     "summary": "",
     "status": "open",
@@ -121,7 +54,8 @@
     "source_url": "https://thinkyou.co.kr/contest/66017/",
     "source_name": "thinkyou",
     "sources": [
-      "thinkyou"
+      "thinkyou",
+      "linkareer"
     ],
     "summary": "",
     "status": "open",
@@ -164,26 +98,6 @@
     "source_name": "thinkyou",
     "sources": [
       "thinkyou"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
-    "needs_review": false
-  },
-  {
-    "id": "fa9439995f9d88e5d3ef3c9369c84629c945a956",
-    "title": "원주가 바꾸는 기분좋은 일상의 변화 2026 규제혁신·제도개선 아이디어 공모전",
-    "organizer": "원주시",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-09-23",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110671",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110671",
-    "source_name": "wevity",
-    "sources": [
-      "wevity"
     ],
     "summary": "",
     "status": "open",
@@ -252,30 +166,6 @@
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
-    "id": "70501f929f0a39b845384792389b7e7b9c966e87",
-    "title": "SDU COSS와 함께하는 소개딩 (소프트웨어 개발보안 시큐어코딩 경진대회)",
-    "organizer": "과학기술정보통신부·교육부·행정안전부",
-    "contest_type": "security",
-    "tags": [
-      "web",
-      "app",
-      "security"
-    ],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-09-28",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=3&ix=110836",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=3&ix=110836",
-    "source_name": "wevity",
-    "sources": [
-      "wevity"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
     "needs_review": false
   },
   {
@@ -382,8 +272,7 @@
     "source_url": "https://thinkyou.co.kr/contest/66803/",
     "source_name": "thinkyou",
     "sources": [
-      "thinkyou",
-      "linkareer"
+      "thinkyou"
     ],
     "summary": "",
     "status": "open",
@@ -521,8 +410,7 @@
     "source_url": "https://thinkyou.co.kr/contest/66823/",
     "source_name": "thinkyou",
     "sources": [
-      "thinkyou",
-      "linkareer"
+      "thinkyou"
     ],
     "summary": "",
     "status": "open",
@@ -569,46 +457,6 @@
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-11T23:10:00.907919",
-    "needs_review": false
-  },
-  {
-    "id": "391a5c0986c107f1eedf74d29d0deacef854d321",
-    "title": "2026년 상주시 시민공감 규제개선 아이디어 공모전",
-    "organizer": "상주시",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-09-30",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=6&ix=110755",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=6&ix=110755",
-    "source_name": "wevity",
-    "sources": [
-      "wevity"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
-    "needs_review": false
-  },
-  {
-    "id": "607321d96ceb83bdc99bc3d8236ba3b871e58b10",
-    "title": "2026년 중증장애인생산품  품목 아이디어 공모전",
-    "organizer": "한국장애인개발원",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-09-30",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=2&ix=110864",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=2&ix=110864",
-    "source_name": "wevity",
-    "sources": [
-      "wevity"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
     "needs_review": false
   },
   {
@@ -680,68 +528,6 @@
     "needs_review": false
   },
   {
-    "id": "1aade5ebb5892f6edf4fb4dda514cc1e93ea0d6a",
-    "title": "[대전관광공사] 2026 주민참여 아이디어 공모전",
-    "organizer": "대전관광공사",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-09-30",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=6&ix=110757",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=6&ix=110757",
-    "source_name": "wevity",
-    "sources": [
-      "wevity"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
-    "needs_review": false
-  },
-  {
-    "id": "d63468e3422ce2166f70aafc8d29c4ae56603edb",
-    "title": "[동작구시설관리공단] 2026 주민참여 혁신 아이디어 공모전",
-    "organizer": "동작구시설관리공단",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-09-30",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=110681",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=110681",
-    "source_name": "wevity",
-    "sources": [
-      "wevity"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
-    "id": "9cfd7d63fa026e75c35de4979970a66a3fe9db89",
-    "title": "[원주시여성기업인 연합회] 2026년 창업아이디어 공모경진대회",
-    "organizer": "원주시여성기업인 연합회",
-    "contest_type": "idea",
-    "tags": [
-      "startup"
-    ],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-09-30",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110669",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110669",
-    "source_name": "wevity",
-    "sources": [
-      "wevity"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
-    "needs_review": false
-  },
-  {
     "id": "351b2a2bf6ea559f2440bc1dff9b5c1fd9119731",
     "title": "「제6회 그린리모델링 챌린지」 대학생 해커톤",
     "organizer": "국토교통부",
@@ -804,26 +590,6 @@
     "needs_review": false
   },
   {
-    "id": "3c6675be92c9c9324a4e6125255df1547523863b",
-    "title": "도시가스 수요관리 활성화 대국민 아이디어 공모전",
-    "organizer": "한국가스공사",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-09-30",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110661",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110661",
-    "source_name": "wevity",
-    "sources": [
-      "wevity"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
-    "needs_review": false
-  },
-  {
     "id": "05d55fb3998cda69f662373ef7752924fc64b66f",
     "title": "제1회 하이멕 AI 활용 아이디어 공모전",
     "organizer": "하이멕",
@@ -862,8 +628,7 @@
     "sources": [
       "thinkyou",
       "campuspick",
-      "linkareer",
-      "wevity"
+      "linkareer"
     ],
     "summary": "",
     "status": "open",
@@ -896,15 +661,18 @@
     "organizer": "국민체육진흥공단",
     "contest_type": "datathon",
     "tags": [
+      "web",
+      "app",
       "data"
     ],
     "eligibility": "",
     "apply_start": "2026-06-08",
     "apply_end": "2026-10-02",
-    "apply_url": "https://thinkyou.co.kr/contest/64056/",
-    "source_url": "https://thinkyou.co.kr/contest/64056/",
-    "source_name": "thinkyou",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=1&ix=108240",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=1&ix=108240",
+    "source_name": "wevity",
     "sources": [
+      "wevity",
       "thinkyou",
       "campuspick"
     ],
@@ -998,26 +766,27 @@
     "needs_review": false
   },
   {
-    "id": "412bcb2467b54fb14e739b0a817425e9c1bb01b7",
-    "title": "2026 추계학술대회 대학생 ERP 아이디어 공모전",
-    "organizer": "한국경영정보학회.영림원",
+    "id": "bec742ef5e1fdbc0a46a2f60e9c90cf04c4551ce",
+    "title": "[과학기술정보통신부] 제3회 미래융합인재 발굴 소프트웨어 챌린지",
+    "organizer": "과학기술정보통신부",
     "contest_type": "idea",
     "tags": [
       "web",
       "app"
     ],
     "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-10-06",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=6&ix=110710",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=6&ix=110710",
+    "apply_start": "2026-08-15",
+    "apply_end": "2026-10-07",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=1&ix=110675",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=1&ix=110675",
     "source_name": "wevity",
     "sources": [
-      "wevity"
+      "wevity",
+      "thinkyou"
     ],
     "summary": "",
     "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
+    "first_seen_at": "2026-09-03T00:00:00",
     "needs_review": false
   },
   {
@@ -1041,30 +810,6 @@
     "needs_review": false
   },
   {
-    "id": "bec742ef5e1fdbc0a46a2f60e9c90cf04c4551ce",
-    "title": "제3회 미래융합인재 발굴 소프트웨어 챌린지",
-    "organizer": "과학기술정보통신부, 경산시",
-    "contest_type": "contest",
-    "tags": [
-      "web",
-      "app"
-    ],
-    "eligibility": "",
-    "apply_start": "2026-08-15",
-    "apply_end": "2026-10-07",
-    "apply_url": "https://thinkyou.co.kr/contest/65905/",
-    "source_url": "https://thinkyou.co.kr/contest/65905/",
-    "source_name": "thinkyou",
-    "sources": [
-      "thinkyou",
-      "wevity"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
     "id": "2e3b37d4b0ee18ae151980d6c334b1ccb6a1dcbe",
     "title": "2026년 전통시장 디지털 혁신 아이디어 공모전",
     "organizer": "서울지방중소벤처기업청·소상공인시장진흥공단·두나무",
@@ -1078,9 +823,7 @@
     "source_name": "thinkyou",
     "sources": [
       "thinkyou",
-      "campuspick",
-      "linkareer",
-      "wevity"
+      "campuspick"
     ],
     "summary": "",
     "status": "open",
@@ -1152,26 +895,159 @@
     "needs_review": false
   },
   {
+    "id": "fef2a63aae030fbcd28cbe5ab4586aae95be7ba7",
+    "title": "2026년 국립강원전문과학관 AI경진대회 (동화책 만들기, 4컷 과학만화 만들기)",
+    "organizer": "국립강원전문과학관",
+    "contest_type": "contest",
+    "tags": [
+      "AI",
+      "web",
+      "app"
+    ],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": "2026-10-12",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=4&ix=111122",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=4&ix=111122",
+    "source_name": "wevity",
+    "sources": [
+      "wevity"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-22T23:34:41.289122",
+    "needs_review": false
+  },
+  {
+    "id": "0addece5715a535df84f2d9c96a876abcebf9864",
+    "title": "2026년 서민금융진흥원 대국민 혁신 아이디어 공모전",
+    "organizer": "서민금융진흥원",
+    "contest_type": "idea",
+    "tags": [],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": "2026-10-12",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=6&ix=111017",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=6&ix=111017",
+    "source_name": "wevity",
+    "sources": [
+      "wevity",
+      "linkareer"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-18T23:10:52.129180",
+    "needs_review": false
+  },
+  {
+    "id": "7ee5783b7b9149369e3732e019ca2e4a5f434c1f",
+    "title": "[우체국물류지원단] 대국민 혁신 아이디어 공모전",
+    "organizer": "우체국물류지원단",
+    "contest_type": "idea",
+    "tags": [],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": "2026-10-12",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=111015",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=111015",
+    "source_name": "wevity",
+    "sources": [
+      "wevity"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-22T23:34:41.289122",
+    "needs_review": false
+  },
+  {
+    "id": "22cb58e0d6e37c9d53071c441838a301722e5436",
+    "title": "2026 AI 농산물 가격예측 온라인 해커톤",
+    "organizer": "한국농수산식품유통공사(aT) 데이터사업부",
+    "contest_type": "hackathon",
+    "tags": [
+      "AI",
+      "data",
+      "hackathon"
+    ],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": "2026-10-13",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110970",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110970",
+    "source_name": "wevity",
+    "sources": [
+      "wevity"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-16T23:36:56.812416",
+    "needs_review": false
+  },
+  {
     "id": "fcd512002e79d056f8d2c8c5f6e949910089df81",
     "title": "2026 고용24 국민참여 AI 고용서비스 발굴 온라인 해커톤",
     "organizer": "고용노동부",
     "contest_type": "hackathon",
     "tags": [
       "AI",
+      "web",
+      "app",
       "hackathon"
     ],
     "eligibility": "",
     "apply_start": "2026-09-21",
     "apply_end": "2026-10-13",
-    "apply_url": "https://thinkyou.co.kr/contest/66930/",
-    "source_url": "https://thinkyou.co.kr/contest/66930/",
-    "source_name": "thinkyou",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=3&ix=111124",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=3&ix=111124",
+    "source_name": "wevity",
     "sources": [
-      "thinkyou"
+      "wevity",
+      "thinkyou",
+      "linkareer"
     ],
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-22T00:00:09.016126",
+    "needs_review": false
+  },
+  {
+    "id": "27f0e8c169b7599df6a415ec319991c7b467e0bd",
+    "title": "[포천도시공사] 2026년 주민참여예산제 아이디어 공모전",
+    "organizer": "포천도시공사",
+    "contest_type": "idea",
+    "tags": [],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": "2026-10-13",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=1&ix=111238",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=1&ix=111238",
+    "source_name": "wevity",
+    "sources": [
+      "wevity"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-22T23:34:41.289122",
+    "needs_review": false
+  },
+  {
+    "id": "01c951a490be1f8f859f5354a2ad5fd417d1eaaf",
+    "title": "충청북도사회서비스원 기관 홍보 캐릭터 도민 아이디어 공모전",
+    "organizer": "충청북도사회서비스원",
+    "contest_type": "idea",
+    "tags": [],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": "2026-10-14",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=110994",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=110994",
+    "source_name": "wevity",
+    "sources": [
+      "wevity"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-15T23:29:44.934303",
     "needs_review": false
   },
   {
@@ -1219,6 +1095,26 @@
     "needs_review": false
   },
   {
+    "id": "d031d7e0fafabec689120cdd343e247e5a32f2d4",
+    "title": "2026 제5회 오픈소스 SW개발 경진대회",
+    "organizer": "과학기술정보통신부, 정보통신기획평가원",
+    "contest_type": "contest",
+    "tags": [],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": "2026-10-16",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110981",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110981",
+    "source_name": "wevity",
+    "sources": [
+      "wevity"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-22T23:34:41.289122",
+    "needs_review": false
+  },
+  {
     "id": "b4cd3f14df06ef33a90cff832f8acec6dc715c70",
     "title": "2026년 정책 아이디어 공모전 '일상 속 익숙한 불편 개선'",
     "organizer": "서울특별시 중구청",
@@ -1236,6 +1132,26 @@
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-10T12:10:14.564977",
+    "needs_review": false
+  },
+  {
+    "id": "37766fc2113c506b80b32f6a26bed589d42b311e",
+    "title": "[포천도시공사] 2026년 혁신 아이디어 공모전",
+    "organizer": "포천도시공사",
+    "contest_type": "idea",
+    "tags": [],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": "2026-10-16",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=3&ix=111135",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=3&ix=111135",
+    "source_name": "wevity",
+    "sources": [
+      "wevity"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-22T23:34:41.289122",
     "needs_review": false
   },
   {
@@ -1259,6 +1175,29 @@
     "needs_review": false
   },
   {
+    "id": "3e443b463e9699e248acff69cea2c3b6fe6df1e6",
+    "title": "2026 AI 농산물 가격예측 해커톤",
+    "organizer": "한국농수산식품유통공사 (aT)",
+    "contest_type": "hackathon",
+    "tags": [
+      "AI",
+      "hackathon"
+    ],
+    "eligibility": "",
+    "apply_start": "2026-09-07",
+    "apply_end": "2026-10-18",
+    "apply_url": "https://thinkyou.co.kr/contest/66955/",
+    "source_url": "https://thinkyou.co.kr/contest/66955/",
+    "source_name": "thinkyou",
+    "sources": [
+      "thinkyou"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-22T23:34:41.289122",
+    "needs_review": false
+  },
+  {
     "id": "404b7d9861b0549b1bf4f23ad83eb45c2bbcc94d",
     "title": "제7회 KRISO 미래바다 아이디어 공모전",
     "organizer": "선박해양플랜트연구소",
@@ -1267,10 +1206,11 @@
     "eligibility": "",
     "apply_start": "2026-09-14",
     "apply_end": "2026-10-18",
-    "apply_url": "https://thinkyou.co.kr/contest/66737/",
-    "source_url": "https://thinkyou.co.kr/contest/66737/",
-    "source_name": "thinkyou",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=111011",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=111011",
+    "source_name": "wevity",
     "sources": [
+      "wevity",
       "thinkyou"
     ],
     "summary": "",
@@ -1285,9 +1225,7 @@
     "contest_type": "datathon",
     "tags": [
       "AI",
-      "data",
-      "web",
-      "app"
+      "data"
     ],
     "eligibility": "",
     "apply_start": "2026-09-01",
@@ -1297,8 +1235,7 @@
     "source_name": "thinkyou",
     "sources": [
       "thinkyou",
-      "linkareer",
-      "wevity"
+      "linkareer"
     ],
     "summary": "",
     "status": "open",
@@ -1341,9 +1278,7 @@
     "source_url": "https://thinkyou.co.kr/contest/66546/",
     "source_name": "thinkyou",
     "sources": [
-      "thinkyou",
-      "linkareer",
-      "wevity"
+      "thinkyou"
     ],
     "summary": "",
     "status": "open",
@@ -1392,25 +1327,23 @@
     "needs_review": false
   },
   {
-    "id": "8acac3afe073f67cc6ae42c2ed6556ec82904fda",
-    "title": "[제주관광공사] 2026 제주 관광 데이터 활용사례 공모전",
-    "organizer": "제주특별자치도",
-    "contest_type": "datathon",
-    "tags": [
-      "data"
-    ],
+    "id": "09b7d394a37c94aaa0b74cb388190081c9d59a2a",
+    "title": "[청주시] 2026 하반기 시민 테마아이디어 공모전",
+    "organizer": "청주시",
+    "contest_type": "idea",
+    "tags": [],
     "eligibility": "",
     "apply_start": null,
     "apply_end": "2026-10-31",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110660",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110660",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=5&ix=111058",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=5&ix=111058",
     "source_name": "wevity",
     "sources": [
       "wevity"
     ],
     "summary": "",
     "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
+    "first_seen_at": "2026-09-22T23:34:41.289122",
     "needs_review": false
   },
   {
@@ -1486,10 +1419,11 @@
     "eligibility": "",
     "apply_start": "2026-09-14",
     "apply_end": "2026-11-05",
-    "apply_url": "https://thinkyou.co.kr/contest/66741/",
-    "source_url": "https://thinkyou.co.kr/contest/66741/",
-    "source_name": "thinkyou",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=111009",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=111009",
+    "source_name": "wevity",
     "sources": [
+      "wevity",
       "thinkyou"
     ],
     "summary": "",
@@ -1520,6 +1454,29 @@
     "needs_review": false
   },
   {
+    "id": "a288eaa5cea84f30925bfeb05399693efa6dd358",
+    "title": "[의정부도시공사] AI 혁신 아이디어 공모전",
+    "organizer": "의정부도시공사",
+    "contest_type": "idea",
+    "tags": [
+      "AI"
+    ],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": "2026-11-08",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=4&ix=111087",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=4&ix=111087",
+    "source_name": "wevity",
+    "sources": [
+      "wevity",
+      "linkareer"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-17T23:30:25.881938",
+    "needs_review": false
+  },
+  {
     "id": "0760cd9bdca0f69510b6d1061400c637e295cc7d",
     "title": "의정부도시공사 AI 혁신 아이디어 공모전",
     "organizer": "의정부도시공사",
@@ -1539,6 +1496,28 @@
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-17T23:30:25.881938",
+    "needs_review": false
+  },
+  {
+    "id": "c93073b10ea57fbbde8eedde2e6e11e1c948812d",
+    "title": "제1회 전국 대학생 AI 재무설계 콘테스트 (AFPK 영 플래너 챌린지 2026)",
+    "organizer": "(사)한국재무설계협회, 한국FP학회",
+    "contest_type": "contest",
+    "tags": [
+      "AI"
+    ],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": "2026-11-16",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=5&ix=111059",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=5&ix=111059",
+    "source_name": "wevity",
+    "sources": [
+      "wevity"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-16T23:36:56.812416",
     "needs_review": false
   },
   {
@@ -1607,30 +1586,6 @@
     "needs_review": false
   },
   {
-    "id": "10a942510ba8475901fe029bfda51f26eba76863",
-    "title": "2026 제4회 SB 스타트업 네트워킹 페스티벌: AI 기반 지역문제 해결 해커톤 참가자 모집 (~9/30)",
-    "organizer": "",
-    "contest_type": "hackathon",
-    "tags": [
-      "AI",
-      "startup",
-      "hackathon"
-    ],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/351461",
-    "source_url": "https://linkareer.com/activity/351461",
-    "source_name": "linkareer",
-    "sources": [
-      "linkareer"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-17T23:30:25.881938",
-    "needs_review": false
-  },
-  {
     "id": "a1cad5ccaa7ef6cce88af182614a82579d41cca5",
     "title": "2026 창업아이디어 공모경진대회",
     "organizer": "",
@@ -1653,23 +1608,23 @@
     "needs_review": false
   },
   {
-    "id": "75951fcdaf36fb89890fc76dfce846b370d8c7eb",
-    "title": "2026년 서민금융진흥원 대국민 혁신 아이디어 공모전",
-    "organizer": "",
+    "id": "74306ff8b41d050d4fcc4560d32a23a1242bce2c",
+    "title": "2026 한국수력원자력 대국민 혁신ㆍ국정과제 아이디어 공모전",
+    "organizer": "한국수력원자력",
     "contest_type": "idea",
     "tags": [],
     "eligibility": "",
-    "apply_start": null,
+    "apply_start": "2026-10-18",
     "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/351900",
-    "source_url": "https://linkareer.com/activity/351900",
-    "source_name": "linkareer",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=1&ix=111142",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=1&ix=111142",
+    "source_name": "wevity",
     "sources": [
-      "linkareer"
+      "wevity"
     ],
     "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-18T23:10:52.129180",
+    "status": "upcoming",
+    "first_seen_at": "2026-09-22T23:34:41.289122",
     "needs_review": false
   },
   {
@@ -1693,65 +1648,43 @@
     "needs_review": false
   },
   {
-    "id": "a4c931426cf44087154caae0857c342974b278ab",
-    "title": "SW중심대학사업단 2026년도 제3회 초중고 SW 경진대회",
-    "organizer": "",
-    "contest_type": "contest",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/351358",
-    "source_url": "https://linkareer.com/activity/351358",
-    "source_name": "linkareer",
-    "sources": [
-      "linkareer"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-17T23:30:25.881938",
-    "needs_review": false
-  },
-  {
-    "id": "f9d67b70f0b3568b8745178c6e8fbe85264be065",
-    "title": "[국민권익위원회] 생활밀착형 특이민원 예방·해소 아이디어 공모전",
-    "organizer": "국민권익위원회",
+    "id": "344522d2692d526a00e3023e5c573845d8090291",
+    "title": "2026년 하반기 용인시 정책 아이디어 공모전",
+    "organizer": "용인시",
     "contest_type": "idea",
     "tags": [],
     "eligibility": "",
-    "apply_start": "2026-09-30",
+    "apply_start": "2026-10-16",
     "apply_end": null,
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=2&ix=110640",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=2&ix=110640",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=1&ix=111130",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=1&ix=111130",
     "source_name": "wevity",
     "sources": [
       "wevity"
     ],
     "summary": "",
     "status": "upcoming",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
+    "first_seen_at": "2026-09-22T23:34:41.289122",
     "needs_review": false
   },
   {
-    "id": "3898618a297af5ad68bcda6391c47677ff62ab21",
-    "title": "[의정부도시공사] AI 혁신 아이디어 공모전",
-    "organizer": "",
+    "id": "65b5c6a298894a67f31aab0cf33f9e8ca27eba2b",
+    "title": "2026년도 농촌진흥사업 고객지원서비스 아이디어 공모전",
+    "organizer": "농촌진흥청",
     "contest_type": "idea",
-    "tags": [
-      "AI"
-    ],
+    "tags": [],
     "eligibility": "",
-    "apply_start": null,
+    "apply_start": "2026-10-16",
     "apply_end": null,
-    "apply_url": "https://linkareer.com/activity/351589",
-    "source_url": "https://linkareer.com/activity/351589",
-    "source_name": "linkareer",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=1&ix=111127",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=1&ix=111127",
+    "source_name": "wevity",
     "sources": [
-      "linkareer"
+      "wevity"
     ],
     "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-17T23:30:25.881938",
+    "status": "upcoming",
+    "first_seen_at": "2026-09-22T23:34:41.289122",
     "needs_review": false
   },
   {
