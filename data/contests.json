@@ -1,27 +1,5 @@
 [
   {
-    "id": "db34d9c7a09c2e4867167b231b78b3055a458c04",
-    "title": "[채용/해커톤] 💻 2026 주식회사 소프트뱅크(SoftBank) 채용",
-    "organizer": "KOREC, Progate",
-    "contest_type": "hackathon",
-    "tags": [
-      "hackathon"
-    ],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-09-22",
-    "apply_url": "https://www.campuspick.com/contest/view?id=35344",
-    "source_url": "https://www.campuspick.com/contest/view?id=35344",
-    "source_name": "campuspick",
-    "sources": [
-      "campuspick"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
     "id": "6573b8ae7a76e112704b9c615851d72d74779c81",
     "title": "2026 기본사회위원회 정책 아이디어 공모",
     "organizer": "기본사회위원회",
@@ -39,69 +17,6 @@
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
-    "id": "e1a2066aca3b6c453b40e4a34cbdce7bd1b8fb19",
-    "title": "2026 기본사회위원회 정책 아이디어 공모전",
-    "organizer": "기본사회위원회",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": "2026-08-20",
-    "apply_end": "2026-09-23",
-    "apply_url": "https://thinkyou.co.kr/contest/66017/",
-    "source_url": "https://thinkyou.co.kr/contest/66017/",
-    "source_name": "thinkyou",
-    "sources": [
-      "thinkyou",
-      "linkareer"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
-    "id": "06139529cce2b432fe618b2130be69e92cc9de8e",
-    "title": "2026년 기관경영혁신 국민아이디어 공모전",
-    "organizer": "오송첨단의료산업진흥재단",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": "2026-08-28",
-    "apply_end": "2026-09-23",
-    "apply_url": "https://thinkyou.co.kr/contest/66368/",
-    "source_url": "https://thinkyou.co.kr/contest/66368/",
-    "source_name": "thinkyou",
-    "sources": [
-      "thinkyou"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
-    "id": "003d6fe20cf81abd10ba02f3499117f7a912f6a7",
-    "title": "2026년 충청남도 데이터 분석 아이디어 공모전",
-    "organizer": "충청남도",
-    "contest_type": "datathon",
-    "tags": [
-      "data"
-    ],
-    "eligibility": "",
-    "apply_start": "2026-08-27",
-    "apply_end": "2026-09-23",
-    "apply_url": "https://thinkyou.co.kr/contest/66563/",
-    "source_url": "https://thinkyou.co.kr/contest/66563/",
-    "source_name": "thinkyou",
-    "sources": [
-      "thinkyou"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-10T12:10:14.564977",
     "needs_review": false
   },
   {
@@ -766,6 +681,29 @@
     "needs_review": false
   },
   {
+    "id": "5eef4c8e3cb51f0536f400b654fb6b53d035346c",
+    "title": "AI-EDU Next Class  전국예비교원 AI 융합 수업설계 해커톤",
+    "organizer": "한국과학창의재단, 제주대학교",
+    "contest_type": "hackathon",
+    "tags": [
+      "AI",
+      "hackathon"
+    ],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": "2026-10-06",
+    "apply_url": "https://www.campuspick.com/contest/view?id=36285",
+    "source_url": "https://www.campuspick.com/contest/view?id=36285",
+    "source_name": "campuspick",
+    "sources": [
+      "campuspick"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-23T23:34:11.609131",
+    "needs_review": false
+  },
+  {
     "id": "bec742ef5e1fdbc0a46a2f60e9c90cf04c4551ce",
     "title": "[과학기술정보통신부] 제3회 미래융합인재 발굴 소프트웨어 챌린지",
     "organizer": "과학기술정보통신부",
@@ -887,7 +825,8 @@
     "sources": [
       "thinkyou",
       "campuspick",
-      "wevity"
+      "wevity",
+      "linkareer"
     ],
     "summary": "",
     "status": "upcoming",
@@ -927,8 +866,8 @@
     "eligibility": "",
     "apply_start": null,
     "apply_end": "2026-10-12",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=6&ix=111017",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=6&ix=111017",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=111017",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=111017",
     "source_name": "wevity",
     "sources": [
       "wevity",
@@ -960,30 +899,6 @@
     "needs_review": false
   },
   {
-    "id": "22cb58e0d6e37c9d53071c441838a301722e5436",
-    "title": "2026 AI 농산물 가격예측 온라인 해커톤",
-    "organizer": "한국농수산식품유통공사(aT) 데이터사업부",
-    "contest_type": "hackathon",
-    "tags": [
-      "AI",
-      "data",
-      "hackathon"
-    ],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-10-13",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110970",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110970",
-    "source_name": "wevity",
-    "sources": [
-      "wevity"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-16T23:36:56.812416",
-    "needs_review": false
-  },
-  {
     "id": "fcd512002e79d056f8d2c8c5f6e949910089df81",
     "title": "2026 고용24 국민참여 AI 고용서비스 발굴 온라인 해커톤",
     "organizer": "고용노동부",
@@ -997,8 +912,8 @@
     "eligibility": "",
     "apply_start": "2026-09-21",
     "apply_end": "2026-10-13",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=3&ix=111124",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=3&ix=111124",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=4&ix=111124",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=4&ix=111124",
     "source_name": "wevity",
     "sources": [
       "wevity",
@@ -1019,15 +934,36 @@
     "eligibility": "",
     "apply_start": null,
     "apply_end": "2026-10-13",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=1&ix=111238",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=1&ix=111238",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=2&ix=111238",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=2&ix=111238",
     "source_name": "wevity",
     "sources": [
-      "wevity"
+      "wevity",
+      "linkareer"
     ],
     "summary": "",
     "status": "open",
     "first_seen_at": "2026-09-22T23:34:41.289122",
+    "needs_review": false
+  },
+  {
+    "id": "3bc3c16f0e5b47cfa37b61bfc3bc855640a2ebee",
+    "title": "포천도시공사 2026년 주민참여예산제 아이디어 공모전",
+    "organizer": "포천도시공사",
+    "contest_type": "idea",
+    "tags": [],
+    "eligibility": "",
+    "apply_start": "2026-09-21",
+    "apply_end": "2026-10-13",
+    "apply_url": "https://thinkyou.co.kr/contest/67006/",
+    "source_url": "https://thinkyou.co.kr/contest/67006/",
+    "source_name": "thinkyou",
+    "sources": [
+      "thinkyou"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-23T23:34:11.609131",
     "needs_review": false
   },
   {
@@ -1039,8 +975,8 @@
     "eligibility": "",
     "apply_start": null,
     "apply_end": "2026-10-14",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=110994",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=110994",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110994",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110994",
     "source_name": "wevity",
     "sources": [
       "wevity"
@@ -1095,26 +1031,6 @@
     "needs_review": false
   },
   {
-    "id": "d031d7e0fafabec689120cdd343e247e5a32f2d4",
-    "title": "2026 제5회 오픈소스 SW개발 경진대회",
-    "organizer": "과학기술정보통신부, 정보통신기획평가원",
-    "contest_type": "contest",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-10-16",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110981",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=110981",
-    "source_name": "wevity",
-    "sources": [
-      "wevity"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-22T23:34:41.289122",
-    "needs_review": false
-  },
-  {
     "id": "b4cd3f14df06ef33a90cff832f8acec6dc715c70",
     "title": "2026년 정책 아이디어 공모전 '일상 속 익숙한 불편 개선'",
     "organizer": "서울특별시 중구청",
@@ -1143,8 +1059,8 @@
     "eligibility": "",
     "apply_start": null,
     "apply_end": "2026-10-16",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=3&ix=111135",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=3&ix=111135",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=4&ix=111135",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=4&ix=111135",
     "source_name": "wevity",
     "sources": [
       "wevity"
@@ -1198,6 +1114,28 @@
     "needs_review": false
   },
   {
+    "id": "d71b0555e8f346a997f88333699010f00c56a2b1",
+    "title": "2026 경남 관광 창업 아이디어 경진대회",
+    "organizer": "한국관광공사",
+    "contest_type": "idea",
+    "tags": [
+      "startup"
+    ],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": "2026-10-18",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=2&ix=111245",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=2&ix=111245",
+    "source_name": "wevity",
+    "sources": [
+      "wevity"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-23T23:34:11.609131",
+    "needs_review": false
+  },
+  {
     "id": "404b7d9861b0549b1bf4f23ad83eb45c2bbcc94d",
     "title": "제7회 KRISO 미래바다 아이디어 공모전",
     "organizer": "선박해양플랜트연구소",
@@ -1206,8 +1144,8 @@
     "eligibility": "",
     "apply_start": "2026-09-14",
     "apply_end": "2026-10-18",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=111011",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=111011",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=111011",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=111011",
     "source_name": "wevity",
     "sources": [
       "wevity",
@@ -1286,6 +1224,27 @@
     "needs_review": false
   },
   {
+    "id": "b2226d277f9158cd541cae1a2a374c879c6de3aa",
+    "title": "2026 승강기산업 진흥 & 승강기 안전문화 확산 아이디어 공모전",
+    "organizer": "(사)대한승강기협회",
+    "contest_type": "idea",
+    "tags": [],
+    "eligibility": "",
+    "apply_start": "2026-09-28",
+    "apply_end": "2026-10-30",
+    "apply_url": "https://thinkyou.co.kr/contest/66975/",
+    "source_url": "https://thinkyou.co.kr/contest/66975/",
+    "source_name": "thinkyou",
+    "sources": [
+      "thinkyou",
+      "linkareer"
+    ],
+    "summary": "",
+    "status": "upcoming",
+    "first_seen_at": "2026-09-23T23:34:11.609131",
+    "needs_review": false
+  },
+  {
     "id": "9d6e07300651d088979fe31660b8244ffbc74eb1",
     "title": "2026 해운·항만·물류 AX 아이디어 공모전",
     "organizer": "한국해양진흥공사",
@@ -1335,8 +1294,8 @@
     "eligibility": "",
     "apply_start": null,
     "apply_end": "2026-10-31",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=5&ix=111058",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=5&ix=111058",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=6&ix=111058",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=6&ix=111058",
     "source_name": "wevity",
     "sources": [
       "wevity"
@@ -1409,6 +1368,28 @@
     "needs_review": false
   },
   {
+    "id": "13d19011cdf626448606300b7cbc9674162dc200",
+    "title": "제 3회 AI·디지털 융합 교육 콘텐츠 개발 경진대회 참가자 모집",
+    "organizer": "부산대학교, 부산교육대학교, 부산에듀테크소프트랩,AIEDAP 경남권역 사업지원단",
+    "contest_type": "idea",
+    "tags": [
+      "AI"
+    ],
+    "eligibility": "",
+    "apply_start": null,
+    "apply_end": "2026-11-01",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=1&ix=111271",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=1&ix=111271",
+    "source_name": "wevity",
+    "sources": [
+      "wevity"
+    ],
+    "summary": "",
+    "status": "open",
+    "first_seen_at": "2026-09-23T23:34:11.609131",
+    "needs_review": false
+  },
+  {
     "id": "eea107ab27d6c8ee1c110138dfaed79b0004be76",
     "title": "2026 스페이스 해커톤",
     "organizer": "우주항공청",
@@ -1419,8 +1400,8 @@
     "eligibility": "",
     "apply_start": "2026-09-14",
     "apply_end": "2026-11-05",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=111009",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=111009",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=111009",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=111009",
     "source_name": "wevity",
     "sources": [
       "wevity",
@@ -1464,12 +1445,11 @@
     "eligibility": "",
     "apply_start": null,
     "apply_end": "2026-11-08",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=4&ix=111087",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=4&ix=111087",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=5&ix=111087",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=5&ix=111087",
     "source_name": "wevity",
     "sources": [
-      "wevity",
-      "linkareer"
+      "wevity"
     ],
     "summary": "",
     "status": "open",
@@ -1509,8 +1489,8 @@
     "eligibility": "",
     "apply_start": null,
     "apply_end": "2026-11-16",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=5&ix=111059",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=5&ix=111059",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=6&ix=111059",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=6&ix=111059",
     "source_name": "wevity",
     "sources": [
       "wevity"
@@ -1616,8 +1596,8 @@
     "eligibility": "",
     "apply_start": "2026-10-18",
     "apply_end": null,
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=1&ix=111142",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=1&ix=111142",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=2&ix=111142",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=2&ix=111142",
     "source_name": "wevity",
     "sources": [
       "wevity"
@@ -1656,8 +1636,8 @@
     "eligibility": "",
     "apply_start": "2026-10-16",
     "apply_end": null,
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=1&ix=111130",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=1&ix=111130",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=2&ix=111130",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=2&ix=111130",
     "source_name": "wevity",
     "sources": [
       "wevity"
@@ -1676,8 +1656,8 @@
     "eligibility": "",
     "apply_start": "2026-10-16",
     "apply_end": null,
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=1&ix=111127",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=1&ix=111127",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=2&ix=111127",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=future&gbn=view&gp=2&ix=111127",
     "source_name": "wevity",
     "sources": [
       "wevity"
