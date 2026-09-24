@@ -1,25 +1,5 @@
 [
   {
-    "id": "6573b8ae7a76e112704b9c615851d72d74779c81",
-    "title": "2026 기본사회위원회 정책 아이디어 공모",
-    "organizer": "기본사회위원회",
-    "contest_type": "idea",
-    "tags": [],
-    "eligibility": "",
-    "apply_start": null,
-    "apply_end": "2026-09-23",
-    "apply_url": "https://www.campuspick.com/contest/view?id=35685",
-    "source_url": "https://www.campuspick.com/contest/view?id=35685",
-    "source_name": "campuspick",
-    "sources": [
-      "campuspick"
-    ],
-    "summary": "",
-    "status": "open",
-    "first_seen_at": "2026-09-03T00:00:00",
-    "needs_review": false
-  },
-  {
     "id": "97253eaf2ba74c7adf3001eb55a87b8c9d9c60d5",
     "title": "2026 인천관광 혁신아이디어 공모전",
     "organizer": "인천관광공사",
@@ -576,18 +556,15 @@
     "organizer": "국민체육진흥공단",
     "contest_type": "datathon",
     "tags": [
-      "web",
-      "app",
       "data"
     ],
     "eligibility": "",
     "apply_start": "2026-06-08",
     "apply_end": "2026-10-02",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=1&ix=108240",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=1&ix=108240",
-    "source_name": "wevity",
+    "apply_url": "https://thinkyou.co.kr/contest/64056/",
+    "source_url": "https://thinkyou.co.kr/contest/64056/",
+    "source_name": "thinkyou",
     "sources": [
-      "wevity",
       "thinkyou",
       "campuspick"
     ],
@@ -1124,8 +1101,8 @@
     "eligibility": "",
     "apply_start": null,
     "apply_end": "2026-10-18",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=2&ix=111245",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=2&ix=111245",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=1&ix=111245",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=1&ix=111245",
     "source_name": "wevity",
     "sources": [
       "wevity"
@@ -1144,8 +1121,8 @@
     "eligibility": "",
     "apply_start": "2026-09-14",
     "apply_end": "2026-10-18",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=111011",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=111011",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=111011",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=111011",
     "source_name": "wevity",
     "sources": [
       "wevity",
@@ -1400,8 +1377,8 @@
     "eligibility": "",
     "apply_start": "2026-09-14",
     "apply_end": "2026-11-05",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=111009",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=111009",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=111009",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=111009",
     "source_name": "wevity",
     "sources": [
       "wevity",
