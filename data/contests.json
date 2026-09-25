@@ -802,8 +802,7 @@
     "sources": [
       "thinkyou",
       "campuspick",
-      "wevity",
-      "linkareer"
+      "wevity"
     ],
     "summary": "",
     "status": "upcoming",
@@ -1214,6 +1213,7 @@
     "source_name": "thinkyou",
     "sources": [
       "thinkyou",
+      "wevity",
       "linkareer"
     ],
     "summary": "",
@@ -1377,8 +1377,8 @@
     "eligibility": "",
     "apply_start": "2026-09-14",
     "apply_end": "2026-11-05",
-    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=111009",
-    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=7&ix=111009",
+    "apply_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=111009",
+    "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=8&ix=111009",
     "source_name": "wevity",
     "sources": [
       "wevity",
@@ -1470,7 +1470,8 @@
     "source_url": "https://www.wevity.com/?c=find&s=1&mode=ing&gbn=view&gp=6&ix=111059",
     "source_name": "wevity",
     "sources": [
-      "wevity"
+      "wevity",
+      "linkareer"
     ],
     "summary": "",
     "status": "open",
